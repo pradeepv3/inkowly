@@ -12,7 +12,7 @@ Author:
   5. Footer
 
   X: Sections
-    X1. Content Intro 
+    X1. Services
     X2. Our Company
     X3. Our Team
     X4. Request a call
@@ -30,6 +30,12 @@ body{
 	font-size: 14px;
   line-height: 2;
 }
+*{
+  outline: 0px;
+}
+.progress-bar,.btn, button, header .navbar {
+  font-family: Open Sans, sans-serif; 
+}
 h1, .h1, h2, .h2, h3, .h3 {
   margin-top: 0px;
   padding: 0 0 15px;
@@ -43,9 +49,13 @@ h1.sec-title, h2.sec-title{
   padding:0 0 15px 0;
   margin: 0 0 30px;
 }
+.btn, button { 
+  border-radius: 50px;
+  background: transparent;
+  padding: 7px 25px;
+}
 .btn-custom{
   border:2px solid #FFF;
-  border-radius: 5px;
   color: #FFF;
   margin: 0 15px 0 0;
 }
@@ -61,10 +71,17 @@ textarea {
   margin:0 0 10px;
   font-weight: normal;
   padding: 5px;
+  font-family: Open Sans, sans-serif;
 }
 input[type="submit"] {
   background: transparent;
   border: 1px solid #ccc;
+  -webkit-transition: all .2s ease-out;
+  -moz-transition: all .2s ease-out;
+  -o-transition: all .2s ease-out;
+  transition: all .2s ease-out;
+  padding: 7px 25px;
+  border-radius: 50px;
 }
 input[type="submit"]:hover {
   background: white;
@@ -75,7 +92,7 @@ input[type="submit"]:hover {
   width: 100%;
   top: 0;
   border: 0;
-  z-index: 10;
+  z-index: 0;
   height: 100%;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
   filter: alpha(opacity=50);
@@ -89,15 +106,48 @@ input[type="submit"]:hover {
 .fa-50 {
   font-size: 50px;
 }
-
+.br-line:after {
+  content: "";
+  width: 50px;
+  display: block;
+  border-bottom: 3px solid;
+  text-align: center;
+  margin: 0px auto;
+  padding: 15px 0 0 0;
+}
+.navbar-fixed-top:before {
+  content: "";
+  width: 100%;
+  height: 60px;
+  background: #333;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  opacity: .3;
+  border-bottom: 1px solid #fff;
+}
 /****************************************/
 /* 2. Header */
 /****************************************/
 
 .navbar{
+  background: transparent;
+  border: 0px;
   margin: 0px;
+  padding: 5px 0;
 }
-
+.navbar-fixed-top .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+.navbar-fixed-top a {
+  color: #FFF;
+}
+.navbar-brand {
+  position: relative;
+}
+.nav-dark:before {
+  opacity: 1;
+}
 /****************************************/
 /* 2.1 Header Navigation */
 /****************************************/
@@ -147,13 +197,22 @@ input[type="submit"]:hover {
 .carousel .item {
   height: 500px;
 }
+.full-banner .carousel,
+.full-banner .carousel .item {
+  height: 100vh;
+}
 .carousel .item {
   background-size: cover;
 }
 .carousel-caption {
-  margin-top: 50%;
-  transform: translateY(-50%);
   font-family: Open Sans, sans-serif;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 80%;
+  height: 40%;
+  margin: auto;
 }
 .carousel-caption__title {
   font-weight: 700;
@@ -161,6 +220,12 @@ input[type="submit"]:hover {
 }
 .carousel-caption__text {
   font-size: 25px;
+}
+.carousel-cation__btn {
+  background: #3078BF;
+  border-radius: 50px;
+  padding: 10px 35px;
+  color: #fff;
 }
 .multi-carousel .carousel {
   height: 150px;
@@ -190,8 +255,7 @@ input[type="submit"]:hover {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-image: url(../images/content-bg.jpg);
-  padding: 30px 0;
+  padding: 75px 0;
 }
 
 /****************************************/
@@ -250,39 +314,56 @@ input[type="submit"]:hover {
 /****************************************/
 
 /****************************************/
-/* X1. Content Intro */
+/* X1. Services */
 /****************************************/
 
-.sec-content-intro{}
-.sec-content-intro__icon{
+.sec-services {}
+.sec-services__icon {
   padding: 30px;
   background: #f1f2f3;
   display: inline-block;
   margin: 0px auto 30px;
   border-radius: 50%;
+  line-height: 0;
 }
-.sec-content-intro__icon .fa{
+.sec-services__icon .fa {
   font-size: 30px;
+  height: 30px;
+  width: 30px;
 }
-
-.sec-content-intro .col-sm-6{
+.sec-services .col-sm-6 {
   padding: 0 0 35px;
+}
+.sec-services .col-sm-6 > div {
+  padding: 0 15px;
+}
+.sec-services__text {
+  margin: 0 0 20px;
 }
 
 /****************************************/
 /* X2. OUR Company */
 /****************************************/
-.sec-our-company {
+.sec-ourcompany {
   color: #fff;
+  background-image: url(../images/workplace-.jpg);
+  position: relative;
 }
-.sec-our-company p {
+.sec-ourcompany .overlay{
+  opacity: .8;
+}
+.sec-ourcompany__content {
+  position: relative;
+}
+.sec-ourcompany__text {
   padding: 0 0 15px;
+  line-height: 35px;
 }
-.sec-our-company_footer{}
-.sec-our-company__phone {
+.sec-ourcompany_footer{}
+.sec-ourcompany__phone {
   font-size: 18px;
 }
-.sec-our-company__phone .fa {
+.sec-ourcompany__phone .fa {
   vertical-align: middle;
   font-size: 30px;
   margin: 0 15px 0 0;
@@ -307,26 +388,23 @@ input[type="submit"]:hover {
 /****************************************/
 /* X4. Request a call */
 /****************************************/
-.sec-request-call {
+.sec-requestcall {
   color: #fff;
-  background-image: url(../images/request-call-bg.jpg);
+  padding: 75px 0;
+  background-color: #193A6B;
+  margin: 0px;
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#193A6B), to(#3078BF));
+  background: -webkit-linear-gradient(top, #193A6B, #3078BF);
+  background: -moz-linear-gradient(top, #193A6B, #3078BF);
+  background: -ms-linear-gradient(top, #193A6B, #3078BF);
+  background: -o-linear-gradient(top, #193A6B, #3078BF);
 }
-.sec-request-call p {
-  line-height: 20px;
+.sec-requestcall input[type='text'],
+.sec-requestcall textarea {
+  border-width: 0px 0 1px 0;
 }
-
-/****************************************/
-/* X5. Our Client */
-/****************************************/
-.sec-our-client{}
-.sec-our-client__inner > div {
-  margin: 0 0 10px;
-}
-.sec-our-client__logo {
-  width: 100%;
-  height: 100px;
-  background: #f1f2f3;
-  text-align: center;
+.sec-requestcall .br-line:after{
+  margin: 0px;
 }
 
 /****************************************/
@@ -341,7 +419,18 @@ input[type="submit"]:hover {
   font-size: 20px;
 }
 .sec-countdown .fa{
-  font-size: 55px;
+  font-size: 30px;
+  height: 30px;
+  width: 30px;
+}
+.sec-countdown__icon {
+  padding: 30px;
+  background: #f1f2f3;
+  display: inline-block;
+  margin: 0px auto 20px;
+  border-radius: 50%;
+  line-height: 0;
+  border: 3px solid #ccc;
 }
 .sec-countdown_count{
   font-size: 20px;
@@ -351,7 +440,78 @@ input[type="submit"]:hover {
 /****************************************/
 /* X7. Progress bar  */
 /****************************************/
-.sec-progressbar{}
-.sec-progressbar .progress-bar span{
+.sec-progressbar {}
+.sec-progressbar__img {
+  width: 100%;
+}
+.sec-progressbar .progress-bar span {
   padding: 0 7px;
+}
+.sec-progressbar-opensource {
+  padding: 20px 0;
+}
+.sec-progressbar-opensource .fa {
+  font-size: 30px;
+  margin: 0 15px 0 0;
+}
+
+/****************************************/
+/* X8. Our Work  */
+/****************************************/
+.sec-ourwork {}
+.sec-ourwork-controls {
+  padding: 0 0 15px
+}
+.sec-ourwork-controls button {
+  background: transparent;
+  border: 1px solid #f1f2f3;
+  padding: 7px 25px;
+  border-radius: 50px;
+}
+.sec-ourwork-controls button.active {
+  background: #f1f2f3;
+}
+.mix{
+  text-align: left;
+  padding: 5px;
+  display: none;
+}
+.sec-ourwork-content {
+  background: #f1f2f3;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+}
+.sec-ourwork-overlay {
+  position: relative;
+  display: block;
+  height: 0%;
+  -webkit-transition: all .2s ease-out;
+  -moz-transition: all .2s ease-out;
+  -o-transition: all .2s ease-out;
+  transition: all .2s ease-out;
+  position: relative;
+  overflow: hidden;
+}
+.sec-ourwork-content:hover .sec-ourwork-overlay{
+  display: block;
+  height: 100%;
+}
+.sec-ourwork__des {
+  position: absolute;
+  text-align: center;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 80%;
+  height: 40%;
+  margin: auto;
+  color: #FFF;
+  font-size: 20px;
+}
+.sec-ourwork__pic {
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }

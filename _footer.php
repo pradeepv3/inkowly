@@ -49,6 +49,8 @@
 </div>
 	<script type='text/javascript' src='js/bootstrap.min.js'></script>
 	<script type="text/javascript" src="js/wow.js"></script>
+	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mixitup/2.1.11/jquery.mixitup.js"></script>
+	<script type="text/javascript" src="js/jquery.fancybox.js"></script>
 	<script type='text/javascript' src='js/script.js'></script>
 </body>
 </html>

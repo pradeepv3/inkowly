@@ -1,66 +1,198 @@
-<div class="section sec-content-intro">
+<div class="section sec-services">
 	<div class="container text-center">
 		
-		<h2 class="sec-title text-center">Our Services</h2>
+		<h2 class="sec-title br-line text-center">Our Services</h2>
 		
 		<div class="col-sm-6 col-lg-3 wow fadeInRight" >
-			<div class="sec-content-intro__icon"><span class="fa fa-coffee"></span></div>
-			<h3>Industrial Chemicals</h3>
-			<p>We market and sell all self-manufactured products as stated and buy or import and sell ...</p>
-			<a href="" class="btn btn-default">Read more</a>
+			<div>
+				<div class="sec-services__icon"><span class="fa fa-html5"></span></div>
+				<h3>HTML </h3>
+				<p class="sec-services__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse etasdx eu metus. </p>
+				<a href="" class="btn btn-default">Read more</a>
+			</div>
 		</div>
 		
 		<div class="col-sm-6 col-lg-3 wow fadeIn" >
-			<div class="sec-content-intro__icon"><span class="fa fa-rocket"></span></div>
-			<h3>Pest Control</h3>
-			<p>Pest Control is under taken as per the requirements of the Environmental Impact Assessment Act  ...</p>
-			<a href="" class="btn btn-default">Read more</a>
+			<div>
+				<div class="sec-services__icon"><span class="fa fa-desktop"></span></div>
+				<h3>Web Design</h3>
+				<p class="sec-services__text">Donec iaculis nunc sollicitudin laoreet feugiat. Maecenas cursus tellus ex, ut vulputate.</p>
+				<a href="" class="btn btn-default">Read more</a>
+			</div>
 		</div>
 
 		<div class="col-sm-6 col-lg-3 wow fadeIn" >
-			<div class="sec-content-intro__icon"><span class="fa fa-umbrella"></span></div>
-			<h3>Protective Equipments</h3>
-			<p>Personal Protective Equipment (PPE), environmental equipment and safety accessories are supplied to clients.</p>
-			<a href="" class="btn btn-default">Read more</a>
+			<div>
+				<div class="sec-services__icon"><span class="fa fa-cogs"></span></div>
+				<h3>Web Development</h3>
+				<p class="sec-services__text">Fusce aliquet quam eget neque ultrices elementum. Nulla posuere felis id arcu blandit sagittis.</p>
+				<a href="" class="btn btn-default">Read more</a>
+			</div>
 		</div>
 
 		<div class="col-sm-6 col-lg-3 wow fadeInLeft" >
-			<div class="sec-content-intro__icon"><span class="fa fa-hourglass"></span></div>
-			<h3>Agro-Chemicals</h3>
-			<p>We supply all kinds of Agro-chemicals for Industrial, Arable and Pastoral applications.</p>
-			<a href="" class="btn btn-default">Read more</a>
+			<div>
+				<div class="sec-services__icon"><span class="fa fa-mobile"></span></div>
+				<h3>Responsive</h3>
+				<p class="sec-services__text">Pulvinar vitae neque et porttitor. Integer non dapibus diam, ac eleifend lectus.</p>
+				<a href="" class="btn btn-default">Read more</a>
+			</div>
 		</div>
 
 	</div>
 </div>
 
-<div class="section parallax sec-our-company clearfix">
-	<div class="container wow slideInUp">
-		<h2 class="sec-title">Our Company</h2>
-		<p>Established in 1988 and incorporated in 1988 Chemdol (Pty) Ltd is a 100% citizen owned company. It has vast experience in cleaning chemicals manufacturing and supply across the country. It was set up in order to assist, Corporations, Enterprises, Individuals and Government Ministries and departments with supply of quality cleaning and Industrial chemicals within the legal framework and compliance with the regulations of the Department of Environmental Aairs.</p>
-		<div class="sec-our-company_footer">
-			<a href="javascript:void(0)" class="btn btn-custom pull-right">Read more</a> 
-			<span><span class="sec-our-company__phone"><span class="fa fa-phone-square"></span>+2323 2222 2222</span></span>
+<div class="section parallax sec-ourcompany clearfix">
+	<div class="overlay"></div>
+	<div class="container sec-ourcompany__content text-center">
+		<h2 class="sec-title br-line">Our Company</h2>
+		<p class="sec-ourcompany__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque metus erat, fermentum vel elementum in, ornare eu ligula. Duis dapibus enim dui, eu condimentum ante iaculis at. Nunc ligula felis, ultricies id leo in, placerat lacinia quam. Sed mi risus, pretium porttitor orci vel, aliquam viverra sapien. Aenean in tempor nisl, sed sagittis ipsum. Pellentesque odio ante, molestie in pellentesque ut, egestas ut enim. Nam bibendum justo a congue malesuada. Sed porta, ex id sodales feugiat, magna massa tristique libero, quis dapibus orci diam id eros.</p>
+		<div class="sec-ourcompany_footer">
+			<a href="javascript:void(0)" class="btn btn-custom">Read more</a> 
 		</div>
 	</div>
 </div>
 
-<div class="section sec-our-team clearfix">
+<div class="section sec-ourwork clearfix">
+	<div class="container controls">
+		<h2 class="sec-title br-line text-center">Our Works</h2>
+		<div class="sec-ourwork-controls text-center">
+			<button class="filter" data-filter="all">All</button>
+	 		<button class="filter" data-filter=".web-design">Web Design</button>
+	  		<button class="filter" data-filter=".fill-logo">Logo</button>
+  		</div>
+  	</div>
+  	<div id="work_filter" class="container">
+  		<div class="col-xs-12 col-xws-6 col-sm-4 col-md-3 mix web-design">
+  			<div class="sec-ourwork-content">
+  				<a class="grouped_elements" rel="group1" href="images/work/web4.jpg">
+  				<img class="sec-ourwork__pic" src="images/work/web4.jpg" />
+  				</a>
+  				<div class="sec-ourwork-overlay">
+  					<div class="overlay"></div>
+					<div class="sec-ourwork__des">
+						<h4>Named dd</h4>
+						<span class="fa fa-search"></span>
+					</div>
+  				</div>
+  			</div>
+  		</div>
+  		<div class="col-xs-12 col-xws-6 col-sm-4 col-md-3 mix fill-logo">
+  			<div class="sec-ourwork-content">
+  				<a class="grouped_elements" rel="group1" href="images/work/web1.jpg">
+  				<img class="sec-ourwork__pic" src="images/work/web1.jpg" />
+  				</a>
+  				<div class="sec-ourwork-overlay">
+  					<div class="overlay"></div>
+					<div class="sec-ourwork__des">
+						<h4>Named dd</h4>
+						<span class="fa fa-search"></span>
+					</div>
+  				</div>
+  			</div>
+  		</div>
+  		<div class="col-xs-12 col-xws-6 col-sm-4 col-md-3 mix web-design">
+  			<div class="sec-ourwork-content">
+  				<a class="grouped_elements" rel="group1" href="images/work/web2.jpg">
+  				<img class="sec-ourwork__pic" src="images/work/web2.jpg" />
+  				</a>
+  				<div class="sec-ourwork-overlay">
+  					<div class="overlay"></div>
+					<div class="sec-ourwork__des">
+						<h4>Named dd</h4>
+						<span class="fa fa-search"></span>
+					</div>
+  				</div>
+  			</div>
+  		</div>
+  		<div class="col-xs-12 col-xws-6 col-sm-4 col-md-3 mix web-design">
+  			<div class="sec-ourwork-content">
+  				<a class="grouped_elements" rel="group1" href="images/work/web3.jpg">
+  				<img class="sec-ourwork__pic" src="images/work/web3.jpg" />
+  				</a>
+  				<div class="sec-ourwork-overlay">
+  					<div class="overlay"></div>
+					<div class="sec-ourwork__des">
+						<h4>Named dd</h4>
+						<span class="fa fa-search"></span>
+					</div>
+  				</div>
+  			</div>
+  		</div>
+  		<div class="col-xs-12 col-xws-6 col-sm-4 col-md-3 mix web-design">
+  			<div class="sec-ourwork-content">
+  				<a class="grouped_elements" rel="group1" href="images/work/web5.jpg">
+  				<img class="sec-ourwork__pic" src="images/work/web5.jpg" />
+  				</a>
+  				<div class="sec-ourwork-overlay">
+  					<div class="overlay"></div>
+					<div class="sec-ourwork__des">
+						<h4>Named dd</h4>
+						<span class="fa fa-search"></span>
+					</div>
+  				</div>
+  			</div>
+  		</div>
+  		<div class="col-xs-12 col-xws-6 col-sm-4 col-md-3 mix fill-logo">
+  			<div class="sec-ourwork-content">
+  				<a class="grouped_elements" rel="group1" href="images/work/web6.jpg">
+  				<img class="sec-ourwork__pic" src="images/work/web6.jpg" />
+  				</a>
+  				<div class="sec-ourwork-overlay">
+  					<div class="overlay"></div>
+					<div class="sec-ourwork__des">
+						<h4>Named dd</h4>
+						<span class="fa fa-search"></span>
+					</div>
+  				</div>
+  			</div>
+  		</div>
+  		<div class="col-xs-12 col-xws-6 col-sm-4 col-md-3 mix web-design">
+  			<div class="sec-ourwork-content">
+  				<a class="grouped_elements" rel="group1" href="images/work/logo1.jpg">
+  					<img class="sec-ourwork__pic" src="images/work/logo1.jpg" />
+  				</a>
+  				<div class="sec-ourwork-overlay">
+  					<div class="overlay"></div>
+					<div class="sec-ourwork__des">
+						<h4>Named dd</h4>
+						<span class="fa fa-search"></span>
+					</div>
+					
+  				</div>
+  			</div>
+  		</div>
+  		<div class="col-xs-12 col-xws-6 col-sm-4 col-md-3 mix web-design">
+  			<div class="sec-ourwork-content">
+  				<a class="grouped_elements" rel="group1" href="images/work/web3.jpg">
+  				<img class="sec-ourwork__pic" src="images/work/web3.jpg" />
+  				</a>
+  				<div class="sec-ourwork-overlay">
+  					<div class="overlay"></div>
+					<div class="sec-ourwork__des">
+						<h4>Named dd</h4>
+						<span class="fa fa-search"></span>
+					</div>
+  				</div>
+  			</div>
+  		</div>
+  	</div>
+</div>
+
+<div class="section sec-multicarousel clearfix">
 	<div class="container multi-carousel">
-		<h2 class="sec-title">Meet Team</h2>
+		<h2 class="sec-title br-line text-center">Our Clients</h2>
 		
 			<div class="row col-md-12">
-			<div class="carousel slide" data-ride="carousel" data-interval="false" data-type="multi" id="myCarousel">
+			<div class="carousel slide" data-ride="carousel" data-interval="2500" data-type="multi" id="myCarousel">
 			  <div class="carousel-inner">
-			  	<?php for($i=0; $i<=10; $i++ ) { if($i==0) {$activeClass= "active";}else {$activeClass= "";} ?>
+			  	<?php for($i=0; $i<=8; $i++ ) { if($i==0) {$activeClass= "active";}else {$activeClass= "";} ?>
 			    <div class="item <?php echo $activeClass; ?>">
 					<div class="col-xs-6 col-sm-3 col-md-2  ">
 						<div class="sec-profile">
 							<div class="sec-profile__pic">
-								<span class="fa fa-user"></span>
-							</div>
-							<p class="sec-profile__name">Name <?php echo $i ?></p>
-							<p class="sec-profile__designation">Designation</p>
+								<img src="images/logo/logo<?php echo $i; ?>.png" />
+							</div>							
 						</div>
 					</div>
 			    </div>
@@ -77,13 +209,13 @@
 
 
 
-<div class="section parallax sec-request-call clearfix">
+<div class="section sec-requestcall clearfix">
 	<div class="container clearfix">
-		<div class="col-md-6 wow fadeInLeft" > 
-			<h2 class="sec-title">Request a Call</h2>
-			<p>For Business inquiry fill our short contact form or you can also sehd us an email and we will get in touch shortly, or call us - (+249 99999 00000)</p>
+		<div class="col-md-6" > 
+			<h2 class="sec-title br-line">Request a Call</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et ex eu metus ultrices accumsan. Sed sed cursus leo. Sed tincidunt augue nec diam bibendum, sed consequat purus congue. Sed vitae felis lectus. Proin eleifend nibh ac ipsum scelerisque fringilla. call us - (+249 99999 00000)</p>
 		</div>
-		<div class="col-md-6 wow fadeInRight" >
+		<div class="col-md-6" >
 			<form class="">
 				<div class="row">
 					<div class="col-md-6"><input type="text" name="" value="" placeholder="First Name" /></div>
@@ -105,49 +237,36 @@
 </div>
 
 
-
-
-<div class="section sec-our-client clearfix">
-	<div class="container">
-		<h2 class="sec-title">Our Client</h2>
-		<div class="sec-our-client__inner">
-			
-			  	<?php for($i=0; $i<=10; $i++ ) { if($i==0) {$activeClass= "active";}else {$activeClass= "";} ?>
-			    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 ">
-			      <div class="sec-our-client__logo"><span class="fa fa-photo"></span></div>
-			    </div>
-			    <?php } ?>
-
-		</div>
-
-
-
-	</div>
-</div>
-
-
 <div class="section sec-countdown clearfix">
 	<div class="container text-center" id="counter">
-		<h2 class="sec-title text-center">Our Works</h2>
+		<h2 class="sec-title br-line text-center">Works Completed</h2>
 		<div class="col-xs-6 col-sm-3">
-			<div class="fa fa-leanpub "></div>
-			<div class="sec-countdown_count" data-count="0">0</div>
-			<h3>Title</h3>
+			<div class="sec-countdown__icon">
+				<span class="fa fa-laptop"></span>
+			</div>
+			<div class="sec-countdown_count" data-count="300">0</div>
+			<h3>Web Design</h3>
 		</div>
 		<div class="col-xs-6 col-sm-3">
-			<div class="fa fa-camera-retro "></div>
+			<div class="sec-countdown__icon">
+				<span class="fa fa-rocket"></span>
+			</div>
 			<div class="sec-countdown_count" data-count="345">0</div>
-			<h3>Title</h3>
+			<h3>Logo</h3>
 		</div>
 		<div class="col-xs-6 col-sm-3">
-			<div class="fa fa-image "></div>
-			<div class="sec-countdown_count" data-count="2465">0</div>
-			<h3>Title</h3>
+			<div class="sec-countdown__icon">
+				<span class="fa fa-mobile "></span>
+			</div>
+			<div class="sec-countdown_count" data-count="245">0</div>
+			<h3>App</h3>
 		</div>
 		<div class="col-xs-6 col-sm-3">
-			<div class="fa fa-simplybuilt "></div>
-			<div class="sec-countdown_count" data-count="236">0</div>
-			<h3>Title</h3>
+			<div class="sec-countdown__icon">
+				<span class="fa fa-wordpress"></span>
+			</div>
+			<div class="sec-countdown_count" data-count="536">0</div>
+			<h3>Wordpress</h3>
 		</div>
 	</div>
 </div>
@@ -155,34 +274,43 @@
 <div class="section sec-progressbar clearfix">
 	<div class="container " id="progress_bar">
 		<div class="col-md-4 col-lg-4">
-
+			<img class="sec-progressbar__img" src="images/work/web4.jpg" />
 		</div>
-		<div class="col-md-4 col-lg-4">
-			<h3 class="sec-title">Recent post</h3>
-			<div class="row">
-				<img scr="" />
-				<h4>Title One witht short text</h4>
-				<p><span></span></p>
-			</div>
+		<div class="col-md-4 col-lg-4 text-left">
+			<h3 class="sec-title">Recent post</h3>		
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et ex eu metus ultrices accumsan. Sed sed cursus leo. Sed tincidunt augue nec diam bibendum, sed consequat purus congue. Sed vitae felis lectus. Proin eleifend nibh ac ipsum scelerisque fringilla.</p>
+			
 		</div>
 		<div class="col-md-4 col-lg-4" id="progress_bar">
 			<div class="progress" >
-				<div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+				<div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
 					<span class="pull-left">HTML</span>
-					<span class="pull-right">60% Complete</span>
+					<span class="pull-right">85% Complete</span>
 				</div>
 			</div>
 			<div class="progress">
-				<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" >
+				<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" >
 					<span class="pull-left">CSS</span>
-					<span class="pull-right">40% Complete</span>
+					<span class="pull-right">90% Complete</span>
 				</div>
 			</div>
 			<div class="progress">
-				<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" >
+				<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" >
 					<span class="pull-left">PHP</span>
-					<span class="pull-right">20% Complete</span>
+					<span class="pull-right">50% Complete</span>
 				</div>
+			</div>
+			<div class="progress">
+				<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" >
+					<span class="pull-left">Photoshop</span>
+					<span class="pull-right">80% Complete</span>
+				</div>
+			</div>
+			<div class="sec-progressbar-opensource text-center">
+				<span class="fa fa-wordpress"></span>
+				<span class="fa fa-joomla"></span>
+				<span class="fa fa-opencart"></span>
+				<span class="fa fa-drupal"></span>
 			</div>
 		</div>
 	</div>

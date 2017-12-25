@@ -19,15 +19,17 @@
 		<div class="item" style="background-image:url(images/hb2.jpg);">
 			<div class="overlay"></div>
 			<div class="carousel-caption" >
-				<div class="carousel-caption__title" data-animation="animated slideInLeft"> 2 Example headline</div>
-				<p class="carousel-caption__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				<div class="carousel-caption__title" data-animation="animated slideInLeft"> 
+					Responsive Design
+				</div>
+				<p class="carousel-caption__text">HTML5, Bootstrap</p>
 			</div>
 		</div>
 		<div class="item" style="background-image:url(images/hb5.jpg);">
 			<div class="overlay"></div>			     
 			<div class="carousel-caption">
-				<div class="" data-animation="animated slideInUp">3 Example headline</div>
-				<p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				<div class="carousel-caption__title" data-animation="animated slideInLeft"> 2 Example headline</div>
+				<p class="carousel-caption__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 			</div>
 		</div>
 	</div>

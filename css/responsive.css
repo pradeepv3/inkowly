@@ -1,16 +1,47 @@
+/* min means min and above*/
 @media (min-width: 768px) {
-  ul.nav li:hover > ul.dropdown-menu {
-    display: block;
-  }
+	ul.nav li:hover > ul.dropdown-menu {
+    	display: block;
+  	}
 }  
+
+@media (max-width: 736px) and (orientation:landscape) {
+    .col-xws-6 {
+       width: 50%;
+    }
+}
 
 /* Tablet, Wide and Small Phone CSS */
 @media only screen and (max-width:999px) {
-  .carousel, .carousel .item{
-    height: 300px;
-  }
-  .multi-carousel .carousel-inner .item{
+	.navbar-fixed-top {
+		padding: 0px;
+	}
+	.navbar.navbar-fixed-top .container {
+		padding: 5px 15px;
+	}
+  	.carousel, .carousel .item{
+    	height: 300px;
+  	}
+  	.full-banner .sec-banner .carousel, 
+  	.full-banner .sec-banner .carousel .item {
+  		height: 50vh;
+  	}
+  	.multi-carousel .carousel-inner .item{
 		height: 140px;
+	}
+	.carousel-caption {
+  		height: 50%;
+  	}
+  	.carousel-caption__title {
+	    font-weight: 600;
+	    font-size: 35px;
+	    line-height: 45px;
+	}
+	.carousel-caption__text {
+		font-size: 15px;
+	}
+	.carousel-cation__btn {
+		padding: 7px 30px;
 	}
 }
 
@@ -106,7 +137,21 @@
   	.dropdown-submenu > a:after {
   		display: none;
   	}
-
+  	.carousel-caption {
+  		height: 50%;
+  	}
+  	.carousel-caption__title {
+	    font-weight: 600;
+	    font-size: 25px;
+	    line-height: 35px;
+	}
+	.carousel-caption__text {
+		font-size: 12px;
+	}
+	.carousel-cation__btn,
+	.carousel-cation__btn {
+		padding: 7px 30px;
+	}
   	.multi-carousel .carousel .active > div {
   		display:none; 
   	}
