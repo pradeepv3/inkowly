@@ -1,4 +1,4 @@
-<div id="carousel-banner" class="carousel slide" data-interval="false" data-ride="carousel">
+<div id="carousel-banner" class="carousel slide parallax-slide" data-interval="false" data-ride="carousel">
 	<!-- Indicators -->
 	<ol class="carousel-indicators">
 		<li data-target="#carousel-banner" data-slide-to="0" class="active"></li>

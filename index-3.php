@@ -1,6 +1,6 @@
-<?php include("_header.php"); ?>
-	<section class="section sec-banner-wrapper">
-		<?php include('banner.php'); ?>
+<?php include("_header2.php"); ?>
+	<section class="section sec-banner">
+		<?php include('banner-parallax.php'); ?>
 	</section>
 	<section class="m-content-wrapper">
 		<?php include('content.php'); ?>
