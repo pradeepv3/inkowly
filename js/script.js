@@ -105,12 +105,38 @@ var IOY = (typeof IOY !== 'undefined' && typeof IOY  === "object") ? IOY : {};
 		});
 
 		$('.navbar-fixed-top').length && $(window).scroll(function() {
-			if( $(window).scrollTop() >= 100 ) {
+			if( $(window).scrollTop() >= 250 ) {
 				$('.navbar-fixed-top').addClass('nav-dark');
 			}
 			else {
 				$('.navbar-fixed-top').removeClass('nav-dark');
 			}
+		});
+
+		$('#move-top').length && $(window).scroll(function() {
+			if( $(window).scrollTop() >= 250 ) {
+				$('#move-top').show();
+			}
+			else {
+				$('#move-top').hide();
+			}
+		});
+
+		$('#move-top').click(function(){
+			//$(window).scrollTop(0);
+			$("html, body").animate({ scrollTop: 0 }, 1000);
+		});
+
+
+		// FAQ Question scroll
+		$('#faq_questions a').click(function(e){
+			console.log("sdfsfdsdfsf");
+		  	e.preventDefault();
+		  	var target = $($(this).attr('href'));
+		  	if(target.length){
+			    var scrollTo = target.offset().top;
+			    $('body, html').animate({scrollTop: scrollTo+'px'}, 800);
+		 	}	
 		});
 
 		$('.sec-countdown_count').length && IOY.Counter();
