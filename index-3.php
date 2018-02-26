@@ -1,7 +1,7 @@
 <?php include("_header2.php"); ?>
-	<section class="section sec-banner">
+	<div class="section sec-banner">
 		<?php include('banner-parallax.php'); ?>
-	</section>
+	</div>
 	<section class="m-content-wrapper">
 		<?php include('content.php'); ?>
 	</section>
