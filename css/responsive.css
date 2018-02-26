@@ -10,13 +10,20 @@
   		padding-top: 20px;
     	padding-bottom: 20px;
   	}
-}  
+}
 
 @media (max-width: 736px) and (orientation:landscape) {
     .col-xws-6 {
        width: 50%;
        float: left;
     }
+}
+
+/* Tablet CSS */
+@media only screen and (max-width:1025px) {
+	.sec-ourwork-content {
+		height: 256px;
+	}
 }
 
 /* Tablet, Wide and Small Phone CSS */
@@ -30,7 +37,7 @@
   	.carousel, .carousel .item{
     	height: 300px;
   	}
-  	.full-banner .sec-banner .carousel, 
+  	.full-banner .sec-banner .carousel,
   	.full-banner .sec-banner .carousel .item {
   		height: 50vh;
   	}
@@ -51,18 +58,21 @@
 	.carousel-cation__btn {
 		padding: 7px 30px;
 	}
+	.sec-ourwork-content {
+		height: 245px;
+	}
 }
 
 /* Tablet CSS */
 @media only screen and (max-width:999px) and (min-width:768px) {
-	.multi-carousel .carousel .active > div { 
-		display:none; 
+	.multi-carousel .carousel .active > div {
+		display:none;
 	}
 	.multi-carousel .carousel .active > div:first-child,
 	.multi-carousel .carousel .active > div:first-child + div,
 	.multi-carousel .carousel .active > div:first-child + div + div,
 	.multi-carousel .carousel .active > div:first-child + div + div + div {
-		display:block; 
+		display:block;
 	}
 }
 
@@ -82,11 +92,11 @@
 		padding: 10px;
 		border: 0px;
 	}
-	.navbar-default .navbar-toggle:hover, 
+	.navbar-default .navbar-toggle:hover,
 	.navbar-default .navbar-toggle:focus {
 		background: transparent;
 	}
-	.navbar-toggle span:first-child, 
+	.navbar-toggle span:first-child,
 	.navbar-toggle span:last-child {
 		-webkit-transition: all .2s linear;
 	    -moz-transition: all .2s linear;
@@ -113,7 +123,7 @@
 	}
 	.navbar-collapse .pull-right,
 	.menu-open .navbar-nav.pull-right {
-	  	float: none !important;	  
+	  	float: none !important;
 	}
 	.menu-open {
 		overflow: hidden;
@@ -167,11 +177,14 @@
 		padding: 7px 30px;
 	}
   	.multi-carousel .carousel .active > div {
-  		display:none; 
+  		display:none;
   	}
 	.multi-carousel .carousel .active > div:first-child,
-	.multi-carousel .carousel .active > div:first-child + div { 
+	.multi-carousel .carousel .active > div:first-child + div {
 		display:block;
+	}
+	.sec-ourwork-content {
+		height: 409px;
 	}
 	.sec-footer .sec-footer__intouch {
 		width: 90%;
@@ -181,4 +194,8 @@
 }
 
 /* Wide Phone CSS */
-@media only screen and (min-width:480px) and (max-width:767px) {}
+@media only screen and (min-width:480px) and (max-width:767px) {
+	.sec-ourwork-content {
+		height: 336px;
+	}
+}

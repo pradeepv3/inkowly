@@ -1,6 +1,6 @@
 /*
 	1. Multiple Carousel
-	2. Counter 
+	2. Counter
 */
 var IOY = (typeof IOY !== 'undefined' && typeof IOY  === "object") ? IOY : {};
 (function($){
@@ -34,7 +34,7 @@ var IOY = (typeof IOY !== 'undefined' && typeof IOY  === "object") ? IOY : {};
 			}
 		});
 	};
-	
+
 	IOY.Counter = function(){
 		var a = 0;
 		$(window).scroll(function() {
@@ -70,13 +70,13 @@ var IOY = (typeof IOY !== 'undefined' && typeof IOY  === "object") ? IOY : {};
 				return $(this).attr('aria-valuenow') +"%";
 			});
 			}
-			
-			
+
+
 		});
 	};
 
 	// Progress Bar
-	// Counter 
+	// Counter
 	$(function(){
 		var $multiItem = $('.carousel[data-type="multi"] .item');
 		$multiItem.length && IOY.MultiCarousel();
@@ -136,7 +136,7 @@ var IOY = (typeof IOY !== 'undefined' && typeof IOY  === "object") ? IOY : {};
 		  	if(target.length){
 			    var scrollTo = target.offset().top;
 			    $('body, html').animate({scrollTop: scrollTo+'px'}, 800);
-		 	}	
+		 	}
 		});
 
 		$('.sec-countdown_count').length && IOY.Counter();

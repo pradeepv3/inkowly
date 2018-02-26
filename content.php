@@ -1,8 +1,8 @@
 <div class="section sec-services">
 	<div class="container text-center">
-		
+
 		<h2 class="sec-title br-line text-center">Our Services</h2>
-		
+
 		<div class="col-sm-6 col-lg-3 wow fadeInRight" >
 			<div>
 				<div class="sec-services__icon"><span class="fa fa-html5"></span></div>
@@ -11,7 +11,7 @@
 				<a href="" class="btn">Read more</a>
 			</div>
 		</div>
-		
+
 		<div class="col-sm-6 col-lg-3 wow fadeIn" >
 			<div>
 				<div class="sec-services__icon"><span class="fa fa-desktop"></span></div>
@@ -48,7 +48,7 @@
 		<h2 class="sec-title br-line">Our Company</h2>
 		<p class="sec-ourcompany__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque metus erat, fermentum vel elementum in, ornare eu ligula. Duis dapibus enim dui, eu condimentum ante iaculis at. Nunc ligula felis, ultricies id leo in, placerat lacinia quam. Sed mi risus, pretium porttitor orci vel, aliquam viverra sapien. Aenean in tempor nisl, sed sagittis ipsum. Pellentesque odio ante, molestie in pellentesque ut, egestas ut enim. Nam bibendum justo a congue malesuada. Sed porta, ex id sodales feugiat, magna massa tristique libero, quis dapibus orci diam id eros.</p>
 		<div class="sec-ourcompany_footer">
-			<a href="javascript:void(0)" class="btn dark">Read more</a> 
+			<a href="javascript:void(0)" class="btn dark">Read more</a>
 		</div>
 	</div>
 </div>
@@ -65,13 +65,13 @@
   	<div id="work_filter" class="container">
   		<div class="col-xs-12 col-xws-6 col-sm-4 col-md-3 mix web-design">
   			<div class="sec-ourwork-content">
-  				<a class="grouped_elements" rel="group1" href="images/work/web4.jpg">
-  				<img class="sec-ourwork__pic" src="images/work/web4.jpg" />
+  				<a class="grouped_elements" data-fancybox-group="group1" href="images/work/web4.jpg">
+  				<img class="sec-ourwork__pic" src="images/work/web4.jpg" alt="Aliquam non enim" />
   				</a>
   				<div class="sec-ourwork-overlay">
   					<div class="overlay"></div>
 					<div class="sec-ourwork__des">
-						<h4>Named dd</h4>
+						<h4>Aliquam non enim</h4>
 						<span class="fa fa-search"></span>
 					</div>
   				</div>
@@ -79,13 +79,13 @@
   		</div>
   		<div class="col-xs-12 col-xws-6 col-sm-4 col-md-3 mix fill-logo">
   			<div class="sec-ourwork-content">
-  				<a class="grouped_elements" rel="group1" href="images/work/web1.jpg">
-  				<img class="sec-ourwork__pic" src="images/work/web1.jpg" />
+  				<a class="grouped_elements" data-fancybox-group="group1" href="images/work/web1-big.jpg">
+  				<img class="sec-ourwork__pic" src="images/work/web1.jpg" alt="Vestibulum bibendum" />
   				</a>
   				<div class="sec-ourwork-overlay">
   					<div class="overlay"></div>
 					<div class="sec-ourwork__des">
-						<h4>Named dd</h4>
+						<h4>Vestibulum bibendum</h4>
 						<span class="fa fa-search"></span>
 					</div>
   				</div>
@@ -93,13 +93,13 @@
   		</div>
   		<div class="col-xs-12 col-xws-6 col-sm-4 col-md-3 mix web-design">
   			<div class="sec-ourwork-content">
-  				<a class="grouped_elements" rel="group1" href="images/work/web2.jpg">
-  				<img class="sec-ourwork__pic" src="images/work/web2.jpg" />
+  				<a class="grouped_elements" data-fancybox-group="group1" href="images/work/web2-big.jpg">
+  				<img class="sec-ourwork__pic" src="images/work/web2.jpg" alt="Donec sit amet leo" />
   				</a>
   				<div class="sec-ourwork-overlay">
   					<div class="overlay"></div>
 					<div class="sec-ourwork__des">
-						<h4>Named dd</h4>
+						<h4>Donec sit amet leo</h4>
 						<span class="fa fa-search"></span>
 					</div>
   				</div>
@@ -107,13 +107,13 @@
   		</div>
   		<div class="col-xs-12 col-xws-6 col-sm-4 col-md-3 mix web-design">
   			<div class="sec-ourwork-content">
-  				<a class="grouped_elements" rel="group1" href="images/work/web3.jpg">
-  				<img class="sec-ourwork__pic" src="images/work/web3.jpg" />
+  				<a class="grouped_elements" data-fancybox-group="group1" href="images/work/web3.jpg">
+  				<img class="sec-ourwork__pic" src="images/work/web3.jpg" alt="Curabitur nec mi quis" />
   				</a>
   				<div class="sec-ourwork-overlay">
   					<div class="overlay"></div>
 					<div class="sec-ourwork__des">
-						<h4>Named dd</h4>
+						<h4>Curabitur nec mi quis</h4>
 						<span class="fa fa-search"></span>
 					</div>
   				</div>
@@ -121,13 +121,13 @@
   		</div>
   		<div class="col-xs-12 col-xws-6 col-sm-4 col-md-3 mix web-design">
   			<div class="sec-ourwork-content">
-  				<a class="grouped_elements" rel="group1" href="images/work/web5.jpg">
-  				<img class="sec-ourwork__pic" src="images/work/web5.jpg" />
+  				<a class="grouped_elements" data-fancybox-group="group1" href="images/work/web5.jpg">
+  				<img class="sec-ourwork__pic" src="images/work/web5.jpg" alt="Quisque a metus mollis" />
   				</a>
   				<div class="sec-ourwork-overlay">
   					<div class="overlay"></div>
 					<div class="sec-ourwork__des">
-						<h4>Named dd</h4>
+						<h4>Quisque a metus mollis</h4>
 						<span class="fa fa-search"></span>
 					</div>
   				</div>
@@ -135,13 +135,13 @@
   		</div>
   		<div class="col-xs-12 col-xws-6 col-sm-4 col-md-3 mix fill-logo">
   			<div class="sec-ourwork-content">
-  				<a class="grouped_elements" rel="group1" href="images/work/web6.jpg">
-  				<img class="sec-ourwork__pic" src="images/work/web6.jpg" />
+  				<a class="grouped_elements" data-fancybox-group="group1" href="images/work/web6.jpg" >
+  				<img class="sec-ourwork__pic" src="images/work/web6.jpg" alt="Etiam maximus tellus sed faucibus" />
   				</a>
   				<div class="sec-ourwork-overlay">
   					<div class="overlay"></div>
 					<div class="sec-ourwork__des">
-						<h4>Named dd</h4>
+						<h4>Etiam maximus tellus sed faucibus</h4>
 						<span class="fa fa-search"></span>
 					</div>
   				</div>
@@ -149,28 +149,28 @@
   		</div>
   		<div class="col-xs-12 col-xws-6 col-sm-4 col-md-3 mix web-design">
   			<div class="sec-ourwork-content">
-  				<a class="grouped_elements" rel="group1" href="images/work/logo1.jpg">
-  					<img class="sec-ourwork__pic" src="images/work/logo1.jpg" />
+  				<a class="grouped_elements" data-fancybox-group="group1" href="images/work/logo1.jpg">
+  					<img class="sec-ourwork__pic" src="images/work/logo1.jpg" alt="Pellentesque ultrices lorem" />
   				</a>
   				<div class="sec-ourwork-overlay">
   					<div class="overlay"></div>
 					<div class="sec-ourwork__des">
-						<h4>Named dd</h4>
+						<h4>Pellentesque ultrices lorem</h4>
 						<span class="fa fa-search"></span>
 					</div>
-					
+
   				</div>
   			</div>
   		</div>
   		<div class="col-xs-12 col-xws-6 col-sm-4 col-md-3 mix web-design">
   			<div class="sec-ourwork-content">
-  				<a class="grouped_elements" rel="group1" href="images/work/web3.jpg">
-  				<img class="sec-ourwork__pic" src="images/work/web3.jpg" />
+  				<a class="grouped_elements" data-fancybox-group="group1" href="images/work/web3.jpg">
+  				<img class="sec-ourwork__pic" src="images/work/web3.jpg" alt="Nullam vitae velit vulputate" />
   				</a>
   				<div class="sec-ourwork-overlay">
   					<div class="overlay"></div>
 					<div class="sec-ourwork__des">
-						<h4>Named dd</h4>
+						<h4>Nullam vitae velit vulputate</h4>
 						<span class="fa fa-search"></span>
 					</div>
   				</div>
@@ -182,7 +182,7 @@
 <div class="section sec-multicarousel clearfix">
 	<div class="container multi-carousel">
 		<h2 class="sec-title br-line text-center">Our Clients</h2>
-		
+
 			<div class="row col-md-12">
 			<div class="carousel slide" data-ride="carousel" data-interval="2500" data-type="multi" id="myCarousel">
 			  <div class="carousel-inner">
@@ -191,13 +191,13 @@
 					<div class="col-xs-6 col-sm-3 col-md-2  ">
 						<div class="sec-profile">
 							<div class="sec-profile__pic">
-								<img src="images/logo/logo<?php echo $i; ?>.png" />
-							</div>							
+								<img src="images/logo/logo<?php echo $i; ?>.png" alt="logo<?php echo $i; ?>" />
+							</div>
 						</div>
 					</div>
 			    </div>
 			    <?php } ?>
-			    
+
 			  </div>
 			  <a class="left carousel-control" href="#myCarousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
 			  <a class="right carousel-control" href="#myCarousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
@@ -211,22 +211,22 @@
 	<div class="overlay"></div>
 	<div class="container clearfix">
 
-		<div class="col-md-6" > 
+		<div class="col-md-6" >
 			<h2 class="sec-title br-line">Request a Call</h2>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et ex eu metus ultrices accumsan. Sed sed cursus leo. Sed tincidunt augue nec diam bibendum, sed consequat purus congue. Sed vitae felis lectus. Proin eleifend nibh ac ipsum scelerisque fringilla. <br> Call us: (+249 99999 00000)</p>
 		</div>
 		<div class="col-md-6" >
 			<form class="">
 				<div class="row">
-					<div class="col-md-6"><input type="text" name="" value="" placeholder="First Name" /></div>
-					<div class="col-md-6"><input type="text" name="" value="" placeholder="Last Name" /></div>
+					<div class="col-md-6"><input type="text" name="firstname" value="" placeholder="First Name" /></div>
+					<div class="col-md-6"><input type="text" name="lastname" value="" placeholder="Last Name" /></div>
 				</div>
 				<div class="row">
-					<div class="col-md-6"><input type="text" name="" value="" placeholder="Email" /></div>
-					<div class="col-md-6"><input type="text" name="" value="" placeholder="Phone Number" /></div>
+					<div class="col-md-6"><input type="text" name="email" value="" placeholder="Email" /></div>
+					<div class="col-md-6"><input type="text" name="phone" value="" placeholder="Phone Number" /></div>
 				</div>
 				<div class="row">
-					<div class="col-md-12"><textarea name="" value="" placeholder="Message"></textarea></div>
+					<div class="col-md-12"><textarea name="message" placeholder="Message"></textarea></div>
 				</div>
 				<div class="row">
 					<div class="col-md-12"><input type="submit" name="Submit" value="Submit" class="btn pull-right" /></div>
@@ -272,14 +272,14 @@
 </div>
 
 <div class="section sec-progressbar clearfix">
-	<div class="container " id="progress_bar">
+	<div class="container">
 		<div class="col-md-4 col-lg-4">
-			<img class="sec-progressbar__img" src="images/work/web4.jpg" />
+			<img class="sec-progressbar__img" src="images/work/web4.jpg" alt="Our Skils" />
 		</div>
 		<div class="col-md-4 col-lg-4 text-left">
-			<h3 class="sec-title">Our Skils</h3>		
+			<h3 class="sec-title">Our Skils</h3>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et ex eu metus ultrices accumsan. Sed sed cursus leo. Sed tincidunt augue nec diam bibendum, sed consequat purus congue. Sed vitae felis lectus. Proin eleifend nibh ac ipsum scelerisque fringilla.</p>
-			
+
 		</div>
 		<div class="col-md-4 col-lg-4" id="progress_bar">
 			<div class="progress" >
@@ -315,9 +315,9 @@
 		<h3 class="sec-title br-line text-center">Recent Post</h3>
 		<div class="col-sm-6">
 			<div class="post-entry">
-				<div class="post-entry__pic"><img src="images/work/web2.jpg"  /></div>
+				<div class="post-entry__pic"><img src="images/work/web2.jpg" alt="Quisque a metus mollis, condimentum diam commodo, euismod neque" /></div>
 				<div class="post-entry-content">
-					<h3 class="post-entry__title">Post tile comes here</h3>
+					<h3 class="post-entry__title">Quisque a metus mollis, condimentum diam commodo, euismod neque</h3>
 						<ul class="list-inline post-entry__meta">
 							<li><span class="fa  fa-user-o"></span> James,</li>
 							<li><span class="fa  fa-clock-o"></span> Jan, 12, 2018</li>
@@ -325,17 +325,17 @@
 							<li class="pull-right"><span class='fa fa-comment-o'></span> 23</li>
 						</ul>
 					<p class="post-entry__excrept">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et ex eu metus ultrices accumsan. Sed sed cursus leo. Sed tincidunt augue nec diam bibendum, sed consequat purus congue. Sed vitae felis lectus.</p>
-					<a href="#" class="btn post-entry_btn">Read More</a>					
+					<a href="#" class="btn post-entry_btn">Read More</a>
 				</div>
-				
+
 			</div>
 		</div>
 
 		<div class="col-sm-6">
 			<div class="post-entry">
-				<div class="post-entry__pic"><img src="images/work/web3.jpg"  /></div>
+				<div class="post-entry__pic"><img src="images/work/web3.jpg" alt="Vestibulum eu nisi quis ipsum egestas cursus nec eget quam" /></div>
 				<div class="post-entry-content">
-					<h3 class="post-entry__title">Post tile comes here</h3>
+					<h3 class="post-entry__title">Vestibulum eu nisi quis ipsum egestas cursus nec eget quam</h3>
 						<ul class="list-inline post-entry__meta">
 							<li><span class="fa  fa-user-o"></span> James,</li>
 							<li><span class="fa  fa-clock-o"></span> Jan, 12, 2018</li>
@@ -343,13 +343,13 @@
 							<li class="pull-right"><span class='fa fa-comment-o'></span> 23</li>
 						</ul>
 					<p class="post-entry__excrept">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et ex eu metus ultrices accumsan. Sed sed cursus leo. Sed tincidunt augue nec diam bibendum, sed consequat purus congue. Sed vitae felis lectus.</p>
-					<a href="#" class="btn post-entry_btn">Read More</a>					
+					<a href="#" class="btn post-entry_btn">Read More</a>
 				</div>
-				
-			</div>
-		</div>	
 
-		
+			</div>
+		</div>
+
+
 
 	</div>
 </div>

@@ -11,9 +11,9 @@
 					<li><a href="sub-page.php?page=contact-us"><span class="fa fa-caret-right"></span>  Contact</a></li>
 				</ul>
 			</div>
-			
+
 			<div class="col-md-3 hidden-sm hidden-xs  clearfix">
-				
+
 			</div>
 			<div class="col-sm-6 col-md-3 hidden-xs navbar clearfix">
 				<h4>Get in touch</h4>
@@ -47,10 +47,10 @@
 	</div>
 </footer>
 </div>
-	<script type='text/javascript' src='js/bootstrap.min.js'></script>
-	<script type="text/javascript" src="js/wow.js"></script>
-	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mixitup/2.1.11/jquery.mixitup.js"></script>
-	<script type="text/javascript" src="js/jquery.fancybox.js"></script>
-	<script type='text/javascript' src='js/script.js'></script>
+	<script src='js/bootstrap.min.js'></script>
+	<script src="js/wow.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/mixitup/2.1.11/jquery.mixitup.js"></script>
+	<script src="js/jquery.fancybox.js"></script>
+	<script src='js/script.js'></script>
 </body>
 </html>

@@ -5,13 +5,15 @@
 			<ul class="dropdown-menu multi-level">
 				<li><a href="index-1.php">Home Page 1</a></li>
 				<li><a href="index-2.php">Home Page 2</a></li>
-				<li class="dropdown dropdown-submenu ">
+				<li><a href="index-3.php">Home Page 3</a></li>
+				<li><a href="index-4.php">Home Page 4</a></li>
+				<!--li class="dropdown dropdown-submenu ">
 					<a class="dropdown-toggle"  data-toggle="dropdown" href="#">Home Page 2 </a>
 					<ul class="dropdown-menu">
 						<li><a href="#">Home Page 1</a></li>
 						<li><a href="#">Home Page 2</a></li>
 					</ul>
-				</li>
+				</li-->
 			</ul>
 		</li>
 		<li class="dropdwon">

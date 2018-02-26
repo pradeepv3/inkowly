@@ -8,7 +8,7 @@ Author: Pradeep
   2:  Header
     2.1 Navigation
   3. Carousel
-  4. Parallax Background Effect 
+  4. Parallax Background Effect
   5. Footer
 
   X: Sections
@@ -57,12 +57,12 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   padding: 0 0 15px;
   font-weight: 600;
 }
-.btn, button { 
+.btn, button {
   border-radius: 50px;
   background: #83b9ff;
   padding: 7px 25px;
   border: 0px;
-  color: #FFF;  
+  color: #FFF;
 }
 .btn:hover, button:hover,
 .btn.active, button.active{
@@ -104,7 +104,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 }
 h1.sec-title, h2.sec-title{
   text-transform: uppercase;
-} 
+}
 .section{
   padding:0 0 15px 0;
   margin: 0 0 30px;
@@ -116,10 +116,10 @@ img.full-size {
   width: 100%;
   height: auto;
 }
-input[type="text"], 
+input[type="text"],
 textarea {
-  background: transparent; 
-  border: 1px solid #ccc; 
+  background: transparent;
+  border: 1px solid #ccc;
   width:100%;
   margin:0 0 10px;
   font-weight: normal;
@@ -283,7 +283,7 @@ img.align-right {
 }
 .nav > li:hover a,
 .nav > li:focus a,
-.navbar-default .navbar-nav > li:hover, 
+.navbar-default .navbar-nav > li:hover,
 .navbar-default .navbar-nav > li:focus {
   background-color: #eee;
   color: #333;
@@ -307,7 +307,7 @@ img.align-right {
   border-bottom: 1px solid #f1f2f3;
   text-decoration: none;
 }
-.dropdown-menu > li > a:hover, 
+.dropdown-menu > li > a:hover,
 .dropdown-menu > .active > a:hover {
   text-decoration: none;
 }
@@ -326,13 +326,13 @@ img.align-right {
   border-width: 5px 0 5px 5px;
   content: " ";
   display: block;
-  float: right;  
-  height: 0;     
+  float: right;
+  height: 0;
   margin-right: -10px;
   margin-top: 5px;
   width: 0;
 }
- 
+
 .dropdown-submenu:hover>a:after {
   border-left-color:#555;
 }
@@ -384,7 +384,7 @@ img.align-right {
   height: 150px;
 }
 .multi-carousel .carousel-control {
-  width: 4%; 
+  width: 4%;
 }
 .multi-carousel .carousel-control.left,
 .multi-carousel .carousel-control.right {
@@ -403,6 +403,7 @@ img.align-right {
   height: 100%;
   top: 0;
   bottom: 0;
+	border: 0;
 }
 
 /****************************************/
@@ -462,8 +463,8 @@ img.align-right {
   position: relative;
 }
 .sec-copyright{
-  background: #434241; 
-  line-height: 75px; 
+  background: #434241;
+  line-height: 75px;
   color: #cdcdcd;
 }
 
@@ -528,7 +529,7 @@ img.align-right {
   text-align: center;
 }
 .sec-profile__pic .fa{
-  font-size: 90px; 
+  font-size: 90px;
   color:#cdcdcd;
 }
 .sec-profile__name {
@@ -608,7 +609,7 @@ img.align-right {
   font-size: 20px;
   height: 20px;
   width: 20px;
-} 
+}
 
 /****************************************/
 /* PROGRESS BAR  */
