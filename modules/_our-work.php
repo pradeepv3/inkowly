@@ -1,0 +1,153 @@
+<div class="section sec-ourwork clearfix">
+	<div class="container controls">
+		<h2 class="sec-title br-line text-center">Our Recent Works</h2>
+		<div class="sec-ourwork-controls text-center">
+			<button class="filter" data-filter="all">All</button>
+	 		<button class="filter" data-filter=".web-design">Web Design</button>
+	  		<button class="filter" data-filter=".fill-logo">Logo</button>
+  		</div>
+  	</div>
+  	<div id="work_filter" class="container">
+  		<div class="col-xs-6 col-xws-6 col-sm-4 col-md-3 mix web-design">
+  			<div class="sec-ourwork-content">
+  				<a class="grouped_elements" data-fancybox-group="group1" href="images/work/web1.jpg">
+  				<img class="sec-ourwork__pic" src="images/work/web1-s.jpg" alt="Aliquam non enim" />
+  				</a>
+  				<div class="sec-ourwork-overlay">
+  					
+					<div class="sec-ourwork__des">
+						<h4>Aliquam non enim</h4>
+						
+					</div>
+  				</div>
+  			</div>
+  		</div>
+        <div class="col-xs-6 col-xws-6 col-sm-4 col-md-3 mix fill-logo">
+  			<div class="sec-ourwork-content">
+  				<a class="grouped_elements" data-fancybox-group="group1" href="images/work/logo4.jpg" >
+  				<img class="sec-ourwork__pic" src="images/work/logo4.jpg" alt="Etiam maximus tellus" />
+  				</a>
+  				<div class="sec-ourwork-overlay">
+  					
+					<div class="sec-ourwork__des">
+						<h4>Etiam maximus tellus</h4>
+						
+					</div>
+  				</div>
+  			</div>
+  		</div>
+  		<div class="col-xs-6 col-xws-6 col-sm-4 col-md-3 mix web-design">
+  			<div class="sec-ourwork-content">
+  				<a class="grouped_elements" data-fancybox-group="group1" href="images/work/web2.jpg">
+  				<img class="sec-ourwork__pic" src="images/work/web2-s.jpg" alt="Vestibulum bibendum" />
+  				</a>
+  				<div class="sec-ourwork-overlay">
+  					
+					<div class="sec-ourwork__des">
+						<h4>Vestibulum bibendum</h4>
+						
+					</div>
+  				</div>
+  			</div>
+  		</div>
+  		<div class="col-xs-6 col-xws-6 col-sm-4 col-md-3 mix web-design">
+  			<div class="sec-ourwork-content">
+  				<a class="grouped_elements" data-fancybox-group="group1" href="images/work/web3.jpg">
+  				<img class="sec-ourwork__pic" src="images/work/web3-s.jpg" alt="Donec sit amet leo" />
+  				</a>
+  				<div class="sec-ourwork-overlay">
+  					
+					<div class="sec-ourwork__des">
+						<h4>Donec sit amet leo</h4>
+						
+					</div>
+  				</div>
+  			</div>
+  		</div>
+  		<div class="col-xs-6 col-xws-6 col-sm-4 col-md-3 mix web-design">
+  			<div class="sec-ourwork-content">
+  				<a class="grouped_elements" data-fancybox-group="group1" href="images/work/web4.jpg">
+  				<img class="sec-ourwork__pic" src="images/work/web4-s.jpg" alt="Curabitur nec mi quis" />
+  				</a>
+  				<div class="sec-ourwork-overlay">
+  					
+					<div class="sec-ourwork__des">
+						<h4>Curabitur nec mi quis</h4>
+						
+					</div>
+  				</div>
+  			</div>
+  		</div>
+        <div class="col-xs-6 col-xws-6 col-sm-4 col-md-3 mix fill-logo">
+  			<div class="sec-ourwork-content">
+  				<a class="grouped_elements" data-fancybox-group="group1" href="images/work/logo5.jpg" >
+  				<img class="sec-ourwork__pic" src="images/work/logo5.jpg" alt="Etiam maximus tellus" />
+  				</a>
+  				<div class="sec-ourwork-overlay">
+  					
+					<div class="sec-ourwork__des">
+						<h4>Etiam maximus tellus</h4>
+						
+					</div>
+  				</div>
+  			</div>
+  		</div>
+  		<div class="col-xs-6 col-xws-6 col-sm-4 col-md-3 mix web-design">
+  			<div class="sec-ourwork-content">
+  				<a class="grouped_elements" data-fancybox-group="group1" href="images/work/web5.jpg">
+  				<img class="sec-ourwork__pic" src="images/work/web5-s.jpg" alt="Quisque a metus mollis" />
+  				</a>
+  				<div class="sec-ourwork-overlay">
+  					
+					<div class="sec-ourwork__des">
+						<h4>Quisque a metus mollis</h4>
+						
+					</div>
+  				</div>
+  			</div>
+  		</div>
+  		<div class="col-xs-6 col-xws-6 col-sm-4 col-md-3 mix fill-logo">
+  			<div class="sec-ourwork-content">
+  				<a class="grouped_elements" data-fancybox-group="group1" href="images/work/logo3.jpg" >
+  				<img class="sec-ourwork__pic" src="images/work/logo3.jpg" alt="Etiam maximus tellus" />
+  				</a>
+  				<div class="sec-ourwork-overlay">
+  					
+					<div class="sec-ourwork__des">
+						<h4>Etiam maximus tellus</h4>
+						
+					</div>
+  				</div>
+  			</div>
+  		</div>
+  		<div class="col-xs-6 col-xws-6 col-sm-4 col-md-3 mix fill-logo">
+  			<div class="sec-ourwork-content">
+  				<a class="grouped_elements" data-fancybox-group="group1" href="images/work/logo1.jpg">
+  					<img class="sec-ourwork__pic" src="images/work/logo1.jpg" alt="Pellentesque ultrices lorem" />
+  				</a>
+  				<div class="sec-ourwork-overlay">
+  					
+					<div class="sec-ourwork__des">
+						<h4>Pellentesque ultrices lorem</h4>
+						
+					</div>
+
+  				</div>
+  			</div>
+  		</div>
+  		<div class="col-xs-6 col-xws-6 col-sm-4 col-md-3 mix fill-logo">
+  			<div class="sec-ourwork-content">
+  				<a class="grouped_elements" data-fancybox-group="group1" href="images/work/logo2.jpg">
+  				<img class="sec-ourwork__pic" src="images/work/logo2.jpg" alt="Nullam vitae velit vulputate" />
+  				</a>
+  				<div class="sec-ourwork-overlay">
+  					
+					<div class="sec-ourwork__des">
+						<h4>Nullam vitae velit vulputate</h4>
+						
+					</div>
+  				</div>
+  			</div>
+  		</div>
+  	</div>
+</div>

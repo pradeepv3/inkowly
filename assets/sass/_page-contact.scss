@@ -1,0 +1,25 @@
+.page-banner.contact {
+	background: transparent;
+}
+
+.g-map {
+	height: 250px;
+	@include filter(grayscale, 99%);
+	iframe {
+		width: 100%;
+		height: 100%;
+		border: 0;
+	}
+}
+
+.sec-subpage-banner.map .container {
+	display: none;
+}
+
+.aside .location .address {
+	display: flex;
+}
+
+.location .fa {
+	margin-right: 15px;
+}

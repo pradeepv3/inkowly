@@ -1,0 +1,157 @@
+.sec-banner {
+	padding: 0;
+}
+
+.carousel {
+	&,
+	& .item {
+		height: 500px;
+	}
+	.full-banner &,
+	.full-banner & .item {
+		height: 100vh;
+	}
+	& .item {
+		background-size: cover;
+		& iframe {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			top: 0;
+			bottom: 0;
+			border: 0;
+		}
+		& .carousel-caption {
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			width: 80%;
+			height: 40%;
+			margin: auto;
+			& .carousel-caption__title {
+				font-weight: 700;
+				font-size: $fontSizeXxl;
+			}
+			& .carousel-caption__text {
+				font-size: $fontSizeMd;
+			}
+			& .carousel-caption__btn {
+				@include border-radius(50px);
+				padding: 10px 35px;
+				color: #fff;
+			}
+		}
+	}
+	.multi-carousel & {
+		height: 150px;
+		overflow: hidden;
+		& .carousel-inner {
+			width: 90%;
+			margin: 0px auto;
+			& .item {
+				height: 150px;
+			}
+		}
+	}
+	&.parallax-slide {
+		& .item {
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+		}
+	}
+}
+
+.multi-carousel {
+	& .carousel-control {
+		width: 4%;
+		&.left,
+		&.right {
+			margin-left: 0px;
+			background-image: none;
+		}
+	}
+}
+
+/* Tablet, Wide and Small Phone CSS */
+
+@media only screen and (max-width:999px) {
+	.carousel {
+		&,
+		& .item {
+			height: 300px;
+			& .carousel-caption {
+				height: 50%;
+				& .carousel-caption__title {
+					font-weight: 600;
+					font-size: $fontSizeLg;
+					line-height: 45px;
+				}
+				& .carousel-caption__text {
+					font-size: $fontSizeSm;
+				}
+				& .carousel-caption__btn {
+					padding: 7px 30px;
+				}
+			}
+		}
+		.full-banner .sec-banner &,
+		.full-banner .sec-banner & .item {
+			height: 50vh;
+		}
+	}
+	.multi-carousel .carousel-inner .item {
+		height: 140px;
+	}
+}
+
+@media only screen and (max-width:999px) and (orientation: landscape) {
+	.full-banner .sec-banner .carousel,
+	.full-banner .sec-banner .carousel .item {
+		height: 100vh;
+	}
+}
+
+/* Tablet CSS */
+
+@media only screen and (max-width:999px) and (min-width:768px) {
+	.multi-carousel .carousel .active>div {
+		display: none;
+	}
+	.multi-carousel .carousel .active>div:first-child,
+	.multi-carousel .carousel .active>div:first-child+div,
+	.multi-carousel .carousel .active>div:first-child+div+div,
+	.multi-carousel .carousel .active>div:first-child+div+div+div {
+		display: block;
+	}
+}
+
+/* Wide and Small Phone CSS */
+
+@media only screen and (max-width:767px) {
+	.carousel-caption {
+		height: 50%;
+		& .carousel-caption__title {
+			font-weight: 600;
+			font-size: $fontSizeMd;
+			line-height: 35px;
+		}
+		& .carousel-caption__text {
+			font-size: $fontSizeXs;
+		}
+		& .carousel-caption__btn {
+			padding: 7px 30px;
+		}
+	}
+	.multi-carousel .carousel .active>div {
+		display: none;
+	}
+	.multi-carousel .carousel .active>div:first-child,
+	.multi-carousel .carousel .active>div:first-child+div {
+		display: block;
+	}
+	.sec-footer .sec-footer__intouch {
+		width: 90%;
+		margin: 0px auto;
+	}
+}

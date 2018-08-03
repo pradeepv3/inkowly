@@ -1,0 +1,25 @@
+.sec-progressbar {
+	& h3.sec-title {
+		margin: 0px;
+		padding-bottom: 15px;
+	}
+	& .sec-progressbar__img {
+		width: 100%;
+	}
+	& .progress-bar span {
+		padding: 0 7px;
+	}
+	& .sec-progressbar-opensource {
+		padding: 20px 0;
+		& .fa {
+			font-size: 30px;
+			margin: 0 15px 0 0;
+		}
+	}
+	& .progress-bars {
+		padding: 30px 0 0 0;
+	}
+	& div[class*="col-"] {
+		margin: 0 0 15px 0;
+	}
+}

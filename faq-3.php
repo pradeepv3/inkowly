@@ -1,4 +1,4 @@
-<?php include("_header.php"); ?>
+<?php include("modules/common/_header.php"); ?>
 
 	<section class="section sec-subpage-banner">
 		
@@ -27,19 +27,19 @@
 
 		<div class="section clearfix">
 			<div class="container">
-				<div class="col-sm-12">
+				<div class="col-sm-12 faq-container">
 					<div class="faq-container__questions" id="faq_questions">
 						<ul class="list-unstyled">
-							<li class="question"><a href="#q1" id="">1. Lorem ipsum dolor sit amet, consectetur adipiscing elit?</a></li>
-							<li class="question"><a href="#q2" id="">2. Donec sed diam at enim pellentesque aliquam?</a></li>
-							<li class="question"><a href="#q3" id="">3. Sed sit amet lectus velit. Etiam at massa ac turpis tristique eleifend?</a></li>
-							<li class="question"><a href="#q4" id="">4. Etiam libero est, aliquam at tincidunt at, hendrerit non nulla?</a></li>
-							<li class="question"><a href="#q5" id="">5. Nunc lorem velit, ultricies vitae lectus eu, laoreet congue augue?</a></li>
-							<li class="question"><a href="#q6" id="">6. Ut sed tempor ex, et fringilla nunc. Fusce varius lectus erat, in euismod libero mollis ut?</a></li>
-							<li class="question"><a href="#q7" id="">7. Donec sed euismod magna, ac sodales diam. Class aptent taciti sociosqu ad litora torquent per conubia nostra?</a></li>
-							<li class="question"><a href="#q8" id="">8. Morbi libero sem, sagittis sit amet euismod vitae, mattis eget ex?</a></li>
-							<li class="question"><a href="#q9" id="">9. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos?</a></li>
-							<li class="question"><a href="#q10" id="">10. Suspendisse maximus eget justo ac egestas. In hac habitasse platea dictumst?</a></li>
+							<li class="question"><a href="#q1" >1. Lorem ipsum dolor sit amet, consectetur adipiscing elit?</a></li>
+							<li class="question"><a href="#q2" >2. Donec sed diam at enim pellentesque aliquam?</a></li>
+							<li class="question"><a href="#q3" >3. Sed sit amet lectus velit. Etiam at massa ac turpis tristique eleifend?</a></li>
+							<li class="question"><a href="#q4" >4. Etiam libero est, aliquam at tincidunt at, hendrerit non nulla?</a></li>
+							<li class="question"><a href="#q5" >5. Nunc lorem velit, ultricies vitae lectus eu, laoreet congue augue?</a></li>
+							<li class="question"><a href="#q6" >6. Ut sed tempor ex, et fringilla nunc. Fusce varius lectus erat, in euismod libero mollis ut?</a></li>
+							<li class="question"><a href="#q7" >7. Donec sed euismod magna, ac sodales diam. Class aptent taciti sociosqu ad litora torquent per conubia nostra?</a></li>
+							<li class="question"><a href="#q8" >8. Morbi libero sem, sagittis sit amet euismod vitae, mattis eget ex?</a></li>
+							<li class="question"><a href="#q9" >9. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos?</a></li>
+							<li class="question"><a href="#q10" >10. Suspendisse maximus eget justo ac egestas. In hac habitasse platea dictumst?</a></li>
 						</ul>
 					</div>
 					<div class="faq-container__answers">
@@ -120,4 +120,4 @@
 
 	</section>
 	<div id="move-top" class="move-top"><span class="fa fa-angle-double-up"></span></div>
-<?php include("_footer.php"); ?>
+<?php include("modules/common/_footer.php"); ?>

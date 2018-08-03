@@ -3,15 +3,14 @@
 	2. Counter
 */
 var IOY = (typeof IOY !== 'undefined' && typeof IOY  === "object") ? IOY : {};
-(function($){
 
+(function($){
 	// Element View port check
 	$.fn.IsInViewport = function() {
 		var elemTop = $(this).offset().top;
 		var elemBottom = elemTop + $(this).outerHeight();
 		var vpTop = $(window).scrollTop();
 		var vpBottom = vpTop + $(window).height();
-
 		return elemBottom > vpTop && elemTop < vpBottom;
 	};
 
@@ -35,6 +34,7 @@ var IOY = (typeof IOY !== 'undefined' && typeof IOY  === "object") ? IOY : {};
 		});
 	};
 
+	// Scroll Counter
 	IOY.Counter = function(){
 		var a = 0;
 		$(window).scroll(function() {
@@ -62,10 +62,11 @@ var IOY = (typeof IOY !== 'undefined' && typeof IOY  === "object") ? IOY : {};
 		});
 	};
 
+	// Progress Bar
 	IOY.progressBar = function(){
 		$(window).scroll(function() {
 			if($('#progress_bar').IsInViewport()){
-				console.log('visisble');
+				//console.log('visisble');
 				$('.progress-bar').css("width",function(){
 				return $(this).attr('aria-valuenow') +"%";
 			});
@@ -75,17 +76,27 @@ var IOY = (typeof IOY !== 'undefined' && typeof IOY  === "object") ? IOY : {};
 		});
 	};
 
-	// Progress Bar
-	// Counter
 	$(function(){
+		
 		var $multiItem = $('.carousel[data-type="multi"] .item');
 		$multiItem.length && IOY.MultiCarousel();
 
+		// Mobile menu toggle
 		var $navbarToggle = $('.navbar-toggle');
 		$navbarToggle.click(function(){
-		  if($('body').hasClass('menu-open')){$('body').removeClass('menu-open');}else{
-		    $('body').addClass('menu-open');
+		  if($('body').hasClass('menu-open')){
+			  $('body').removeClass('menu-open');
+			  $('.page-overlay').remove();
+			} else {
+			$('body').prepend('<div class="page-overlay"></div>');
+				$('body').addClass('menu-open');
 		  }
+		});
+
+		// Mobile menu drop menu
+		$('.nav-level-1 > a').click(function(){ $('.nav-level-1').removeClass('parent-open') });
+		$('li.dropdown-submenu').click(function(){
+			$(this).closest('.nav-level-1').addClass('parent-open');
 		});
 
 		var $mixUp = $('#work_filter');

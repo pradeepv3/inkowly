@@ -1,0 +1,29 @@
+.sec-ourcompany {
+	color: #fff;
+	background-image: url(../images/workplace-.jpg);
+	position: relative;
+	& .content-overlay {
+		@include Opacity(.8);
+	}
+	& .sec-ourcompany__content {
+		position: relative;
+	}
+	& .sec-ourcompany__text {
+		padding: 0 0 15px;
+		line-height: 35px;
+	}
+	& .sec-ourcompany__phone {
+		font-size: 18px;
+		& .fa {
+			vertical-align: middle;
+			font-size: 30px;
+			margin: 0 15px 0 0;
+		}
+	}
+}
+
+@media only screen and (max-width:999px) {
+	.sec-ourcompany__text {
+		line-height: 30px;
+	}
+}

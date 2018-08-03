@@ -1,0 +1,65 @@
+.sec-ourwork {
+	& .sec-ourwork-controls {
+		padding: 0 0 15px;
+		& button {
+			margin: 10px 5px;
+		}
+	}
+	& .mix {
+		text-align: left;
+		padding: 5px;
+		display: none;
+	}
+	& .sec-ourwork-content {
+		overflow: hidden;
+		position: relative;
+		border-radius: 7px;
+		&:hover {
+			& .sec-ourwork-overlay {
+				transform: scaleY(1);
+			}
+			& .sec-ourwork__pic {
+				transform: scale(1.1);
+			}
+		}
+	}
+	& .sec-ourwork-overlay {
+		position: absolute;
+		width: 100%;
+		background: #448aff;
+		display: block;
+		overflow: hidden;
+		bottom: 0;
+		transform: scaleY(0);
+		transform-origin: bottom;
+		transition: transform 0.26s ease;
+		border-bottom-right-radius: 7px;
+		border-bottom-left-radius: 7px;
+	}
+	& .sec-ourwork__des {
+		text-align: center;
+		color: #FFF;
+		font-size: 20px;
+		& h4 {
+			font-size: 14px;
+			padding: 20px 10px;
+			margin: 0px;
+		}
+	}
+	& .sec-ourwork__pic {
+		width: 100%;
+		border-radius: 7px;
+		@include transition();
+	}
+}
+
+@media only screen and (max-width:767px) {
+	.sec-ourwork-overlay {
+		transform: scaleY(1);
+	}
+	.sec-ourwork__des h4 {
+		padding: 10px;
+		font-size: 13px;
+		font-weight: normal;
+	}
+}

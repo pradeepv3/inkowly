@@ -1,8 +1,8 @@
-<?php include("_header2.php"); ?>
+<?php include("modules/common/_header2.php"); ?>
 	<div class="section sec-banner">
-		<?php include('banner-video.php'); ?>
+		<?php include('modules/banner/banner-video.php'); ?>
 	</div>
 	<section class="m-content-wrapper">
 		<?php include('content.php'); ?>
 	</section>
-<?php include("_footer.php"); ?>
+<?php include("modules/common/_footer.php"); ?>

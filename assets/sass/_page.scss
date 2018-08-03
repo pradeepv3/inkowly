@@ -1,0 +1,52 @@
+.sec-subpage-banner {
+	background-color: #CCC;
+	padding: 50px 0;
+	&.map {
+		padding: 0;
+		& .g-map {
+			height: 100%;
+		}
+	}
+	&.page-banner {
+		& div[class*="col-"] {
+			display: block !important;
+			text-align: center;
+			width: 100%;
+		}
+		& .breadcrumb {
+			text-align: center;
+		}
+		& .container {
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			width: 80%;
+			height: 20%;
+			margin: auto;
+			position: absolute;
+		}
+	}
+}
+
+.page-banner {
+	background-image: url(../images/about.jpg);
+	height: 350px;
+	position: relative;
+	color: #fff;
+}
+
+.page-banner a,
+.page-banner .breadcrumb .active,
+.page-banner .breadcrumb>li+li:before {
+	color: #fff;
+}
+
+.sec-subpage-main {
+	padding: 45px 0;
+}
+
+.sec-subpage-content .container.sec-testimonial,
+.sec-subpage-content .container.sec-tab-content {
+	width: auto;
+}

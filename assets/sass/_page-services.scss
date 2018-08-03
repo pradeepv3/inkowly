@@ -1,0 +1,16 @@
+.sec-services .panel-heading .caret {
+	float: right;
+	top: 10px;
+	position: relative;
+}
+
+.sec-services .panel-heading a {
+	text-decoration: none;
+}
+
+@media only screen and (min-width: 768px) {
+	.sec-services .panel .list-group {
+		display: block !important;
+		height: auto !important;
+	}
+}

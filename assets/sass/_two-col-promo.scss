@@ -1,0 +1,28 @@
+.two-col-promo {
+	text-align: center;
+	& h3 {
+		font-size: $fontSizeMd;
+		color: #fff;
+		padding: 0;
+		text-transform: uppercase;
+		overflow: hidden;
+		width: auto;
+		margin: 0px auto;
+		white-space: nowrap;
+	}
+	& [class^="col-"] {
+		padding: 45px 0;
+	}
+	& .left-col {
+		background: #3078BF;
+		& h3 {
+			animation: typewritter 5s steps(30, end);
+		}
+	}
+	& .right-col {
+		background: #83b9ff;
+		& h3 {
+			animation: typewritter2 5s steps(30, end);
+		}
+	}
+}

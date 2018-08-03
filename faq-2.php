@@ -1,4 +1,4 @@
-<?php include("_header.php"); ?>
+<?php include("modules/common/_header.php"); ?>
 
 	<section class="section sec-subpage-banner">
 		
@@ -92,4 +92,4 @@
 
 	</section>
 	<div id="move-top" class="move-top"><span class="fa fa-angle-double-up"></span></div>
-<?php include("_footer.php"); ?>
+<?php include("modules/common/_footer.php"); ?>

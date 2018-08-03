@@ -1,4 +1,4 @@
-<?php include("_header.php"); ?>
+<?php include("modules/common/_header.php"); ?>
 	<section class="section sec-subpage-banner">
 		<div class="container">
 			<div class="col-sm-8">
@@ -64,13 +64,13 @@
 							<div class="cols-sm-10">
 								<div class="input-group">
 									<span class="input-group-addon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
-									<input type="test" class="form-control" name="address" id="address"  placeholder="Enter your Address"/>
+									<input type="text" class="form-control" name="address" id="address"  placeholder="Enter your Address"/>
 								</div>
 							</div>
 						</div>
 
 						<div class="form-group">
-							<label for="confirm" class="cols-sm-2 control-label">Message</label>
+							<label  class="cols-sm-2 control-label">Message</label>
 							<div class="cols-sm-10">
 								<div class="input-group">
 									<span class="input-group-addon"><i class="fa fa-pencil" aria-hidden="true"></i></span>
@@ -91,7 +91,7 @@
 			<div class="col-sm-5 aside">
 				<h4>Visit Us</h4>
 				<div class="section g-map">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248849.55224327178!2d77.49085182267841!3d12.9542945999577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C+Karnataka!5e0!3m2!1sen!2sin!4v1514665850692" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248849.55224327178!2d77.49085182267841!3d12.9542945999577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C+Karnataka!5e0!3m2!1sen!2sin!4v1514665850692"  allowfullscreen></iframe>
 				</div>
 				<div class="location">
 					<h4>Our Contacts</h4>
@@ -115,4 +115,4 @@
 
 
 	</section>
-<?php include("_footer.php"); ?>
+<?php include("modules/common/_footer.php"); ?>

@@ -1,0 +1,59 @@
+.sec-ourteam {
+	& .sec-ourteam-content {
+		position: relative;
+		& .sec-ourteam-userimg {
+			height: 300px;
+			overflow: hidden;
+		}
+		& .sec-ourteam-userdata {
+			position: absolute;
+			bottom: 0px;
+			text-align: center;
+			width: 100%;
+			padding: 10px 0 0 0;
+			& .sec-ourteam__title {
+				margin: 0 0 3px;
+				padding: 0px;
+			}
+			& .sec-ourteam__text {
+				color: #010a13;
+				font-size: $fontSizeXs;
+				margin: 0 0 5px;
+				font-weight: bold;
+				font-style: italic;
+			}
+			& .content-overlay {
+				background: #FFF;
+				@include Opacity(.8);
+			}
+			&:hover .content-overlay {
+				@include Opacity(1);
+			}
+		}
+		&:hover {
+			& .sec-ourteam-usersocial {
+				height: 40px;
+			}
+		}
+	}
+	& .sec-ourteam-usersocial {
+		height: 0;
+		@include transition();
+		overflow: hidden;
+	}
+}
+
+.sec-ourteam-userdata .sec-ourteam-usersocial,
+.sec-ourteam-userdata h4,
+.sec-ourteam-userdata p {
+	position: relative;
+}
+
+@media only screen and (max-width:767px) {
+	.sec-ourteam-userdata {
+		position: relative;
+	}
+	.sec-ourteam-usersocial {
+		height: 40px;
+	}
+}
