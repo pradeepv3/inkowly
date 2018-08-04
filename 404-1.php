@@ -1,4 +1,4 @@
-<?php include("_header.php"); ?>
+<?php include("modules/common/_header.php"); ?>
 	<section class="section sec-subpage-banner">
 		
 		<div class="container">
@@ -32,4 +32,4 @@
 			</div>
 		</div>		
 	</section>
-<?php include("_footer.php"); ?>
+<?php include("modules/common/_footer.php"); ?>

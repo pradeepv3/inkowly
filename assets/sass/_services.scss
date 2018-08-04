@@ -1,0 +1,23 @@
+.sec-services {
+	& .sec-services__icon {
+		background: #f1f2f3;
+	}
+	& .sec-services__text {
+		margin: 0 0 20px;
+	}
+	& .sec-services__img {
+		img {
+			width: 100%;
+		}
+	}
+	@media only screen and (max-width:999px) {
+		margin: 0px;
+	}
+	& .sec-services__item {
+		height: 245px;
+	}
+	& h3 {
+		font-size: 20px;
+		padding: 0 0 7px;
+	}
+}

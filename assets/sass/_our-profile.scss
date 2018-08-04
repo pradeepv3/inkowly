@@ -1,0 +1,18 @@
+.sec-profile {
+	text-align: center;
+	& .sec-profile__pic {
+		line-height: 150px;
+		& .fa {
+			font-size: 90px;
+			color: #cdcdcd;
+		}
+		& img {
+			max-width: 100%;
+		}
+	}
+	& .sec-profile__name {
+		padding: 0 0 2px;
+		margin: 0px;
+		font-weight: bold;
+	}
+}

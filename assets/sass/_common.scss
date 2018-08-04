@@ -1,0 +1,321 @@
+body {
+	font-family: $fontFamily;
+	font-size: $fontSizeXs;
+	line-height: 1.7;
+	font-weight: 400;
+	color: $fontColor;
+}
+
+* {
+	outline: 0;
+}
+
+a,
+.btn,
+button,
+input[type="submit"] {
+	@include transition();
+}
+
+a {
+	color: $anchorColor;
+	&:hover,
+	&:focus {
+		color: $anchorColorHover;
+	}
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+	margin-top: 0;
+	padding: 0 0 15px;
+	font-weight: 600;
+}
+
+video {
+	width: 100%;
+}
+
+.btn,
+button {
+	@include border-radius(50px);
+	background: $buttonColorLight;
+	padding: 7px 25px;
+	border: 0;
+	color: $buttonColor;
+	&:hover,
+	&:active {
+		background: $buttonHoverColor;
+		color: $fontWhite;
+	}
+	&.dark {
+		background: $buttonColorDark;
+		&:hover {
+			background: $buttonHoverColor;
+		}
+	}
+	&.btn-submit .fa {
+		margin: 0 10px 0 0;
+	}
+}
+
+.page-title {
+	text-transform: uppercase;
+	font-size: $fontSizeLg;
+	padding: 0 0 35px;
+	margin: 0;
+}
+
+.sec-subpage-banner .page-title {
+	padding: 0;
+}
+
+.sec-title {
+	text-transform: uppercase;
+}
+
+.section {
+	margin: 0 0 30px;
+	padding: 30px 0;
+}
+
+label {
+	font-weight: 500;
+}
+
+input[type="text"],
+textarea {
+	background: transparent;
+	border: 1px solid #ccc;
+	width: 100%;
+	margin: 0 0 10px;
+	font-weight: normal;
+	padding: 5px;
+	resize: none;
+}
+
+input[type="submit"] {
+	padding: 7px 25px;
+	@include border-radius(50px);
+}
+
+input[type="submit"]:hover {}
+
+.overlay,
+.content-overlay,
+.page-overlay {
+	position: absolute;
+	background: #333;
+	width: 100%;
+	top: 0;
+	border: 0;
+	z-index: 0;
+	height: 100%;
+	@include Opacity(.5);
+}
+
+.page-overlay {
+	position: fixed;
+	display: block;
+}
+
+.fa-30 {
+	font-size: 30px;
+}
+
+.fa-50 {
+	font-size: 50px;
+}
+
+.bdr-bottom {
+	border-bottom: 1px solid $borderColorDark;
+}
+
+p.txt-lg {
+	font-size: $fontSizeSm;
+	margin: 0 0 25px;
+	line-height: 27px;
+}
+
+.navbar-fixed-top:before {
+	content: "";
+	width: 100%;
+	height: 60px;
+	background: #333;
+	top: 0;
+	bottom: 0;
+	position: absolute;
+	@include Opacity(.3);
+}
+
+.breadcrumb {
+	background: transparent;
+	color: #333;
+	font-size: $fontSizeXs;
+	text-align: right;
+	margin: 0px;
+	& a {
+		color: $fontColor;
+	}
+	& li+li:before {
+		color: #333;
+		font-size: $fonSizeXxs;
+	}
+}
+
+.seperator {
+	padding: 0 5px;
+}
+
+.icon-list {
+	& li {
+		margin: 0 0 0 25px;
+		line-height: 25px;
+		&:before {
+			content: "\f006";
+			font-family: FontAwesome;
+			float: left;
+			margin-left: -18px;
+			color: $faColor;
+		}
+	}
+	&.icon-chevron {
+		& li {
+			&:before {
+				content: "\f054";
+			}
+		}
+	}
+}
+
+.social {
+	a {
+		.fa {
+			border: 1px solid $faBorderColor;
+			width: 25px;
+			height: 25px;
+			font-size: $fontSizeXs;
+			line-height: 25px;
+			@include border-radius(50%);
+		}
+		&:hover {
+			.fa {
+				color: $fontWhite;
+				background: $faBackgroundrColor;
+			}
+		}
+	}
+}
+
+.move-top {
+	height: 35px;
+	width: 35px;
+	@include border-radius(50%);
+	position: fixed;
+	bottom: 50px;
+	right: 50px;
+	background: $backgroundColorLight;
+	border: 1px solid $borderColorDark;
+	text-align: center;
+	line-height: 40px;
+	display: none;
+	cursor: pointer;
+	z-index: 999;
+	.fa {
+		font-size: $fontSizeMd;
+	}
+}
+
+.br-line:after,
+.br-sec-line:after {
+	content: "";
+	width: 50px;
+	display: block;
+	border-bottom: 3px solid;
+	text-align: center;
+	margin: 0px auto;
+	padding: 15px 0 0 0;
+}
+
+.br-sec-line:after {
+	width: 50%;
+	border-color: #f1f2f3;
+	border-width: 2px;
+}
+
+.sec-divider {
+	border-bottom: 2px solid #f3f4f5;
+}
+
+img {
+	&.align-left {
+		float: left;
+		margin: 0 20px 20px 0;
+	}
+	&.align-right {
+		float: left;
+		margin: 0 0px 20px 20px;
+	}
+	&.full-size {
+		width: 100%;
+		margin: 0 0 15px;
+		height: auto;
+	}
+}
+
+.circle-icon {
+	width: 80px;
+	height: 80px;
+	margin: 0 auto 20px;
+	@include border-radius(100%);
+	line-height: 80px;
+	text-align: center;
+	vertical-align: middle;
+	display: inline-block;
+	& .fa-circle-icon {
+		font-size: $fontSizeMd;
+		line-height: inherit;
+	}
+}
+
+@media only screen and (max-width:999px) {
+	.btn,
+	.button,
+	button.sss,
+	button {
+		padding: 5px 15px;
+		font-size: $fontSizeXs;
+	}
+	h2,
+	.h2 {
+		font-size: $fontSizeMd;
+	}
+	.breadcrumb {
+		display: none;
+	}
+	.page-title {
+		font-size: $fontSizeMd;
+	}
+	.circle-icon {
+		width: 70px;
+		height: 70px;
+		margin: 0 auto 10px;
+		line-height: 70px;
+		& .fa-circle-icon {
+			font-size: $fontSizeSm;
+		}
+	}
+	video {
+		display: none;
+	}
+}

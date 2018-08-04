@@ -1,0 +1,53 @@
+.sec-tab {
+	.nav-tabs>li {
+		&>a {
+			border-radius: 0px;
+			background: #f1f2f3;
+			color: #333;
+		}
+		&.active>a {
+			background: #FFF;
+			border-bottom-color: transparent;
+		}
+	}
+	.tab-content {
+		padding: 15px 0;
+		border: 1px solid #DDD;
+		border-top: 0;
+	}
+	@media only screen and (max-width:767px) {
+		.nav-tabs {
+			float: left;
+			width: 25%;
+			border-top: 1px solid #ddd;
+			border-bottom: 0;
+			&>li {
+				float: none;
+				display: block;
+				border-bottom: 1px solid #dcdcdc;
+				border-left: 1px solid #dcdcdc;
+				margin: 0;
+				&.active {
+					margin-right: -1px;
+				}
+			}
+			&>li>a {
+				margin: 0;
+				font-size: 12px;
+				padding: 7px;
+			}
+			&>li.active>a {
+				border-right-color: transparent;
+				border: 0px;
+			}
+		}
+		.tab-content {
+			width: 75%;
+			float: left;
+			margin: 0px;
+			border: 1px solid #DDD;
+			max-height: 300px;
+			overflow-y: scroll;
+		}
+	}
+}
