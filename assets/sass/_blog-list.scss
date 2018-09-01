@@ -1,0 +1,13 @@
+.blog-list {
+	& .post-entry {
+		padding: 0 0 30px;
+		margin: 0 0 30px;
+		border-bottom: 1px solid #CCC;
+		& .post-entry__pic {
+			height: 300px;
+			@media only screen and (max-width: 767px) {
+				height: 150px;
+			}
+		}
+	}
+}

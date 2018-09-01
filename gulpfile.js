@@ -5,9 +5,14 @@ var changed = require('gulp-changed');
 var sass = require('gulp-sass');
 var cleanCSS = require('gulp-clean-css');
 var rename = require("gulp-rename");
+var uglify = require("gulp-uglify");
+var sourcemaps = require("gulp-sourcemaps");
 
 var SassSRC = './assets/sass/*.scss';
-var SassDest = './css/'
+var SassDest = './css/';
+
+var jsSRC = './assets/js/*.js';
+var jsDest = './js/'
 
 // gulp.task("default", function(){
 //     gulp.src('./js/script.js')
@@ -15,23 +20,38 @@ var SassDest = './css/'
 //     .pipe(jslint.reporter('default'))
 // });
 
-gulp.task('changed', function(){
+gulp.task('changed', function () {
 	console.log("changed");
 	return gulp.src(SassSRC)
-	.pipe(changed(SassDest))
-	.pipe(gulp.dest(SassDest));
+		.pipe(changed(SassDest))
+		.pipe(gulp.dest(SassDest));
 });
 
+gulp.task('uglify', function () {
+	gulp.src(jsSRC)
+		.pipe(uglify())
+		//.pipe(gulp.dest(jsDest))
+		.pipe(rename(function (path) {
+			path.basename += ".min";
+		}))
+		.pipe(gulp.dest(jsDest))
+});
 
-gulp.task('sass',function(){
+gulp.task('sass', function () {
 	gulp.src(SassSRC)
-	.pipe(sass().on('error', sass.logError))
-	.pipe(gulp.dest(SassDest))
-	.pipe(cleanCSS({compatibility: 'ie8'}))
-	  .pipe(rename(function(path){
-		path.basename += ".min";
-	  }))
-	  .pipe(gulp.dest(SassDest));
+		.pipe(sourcemaps.init())
+		.pipe(sass().on('error', sass.logError))
+
+		.pipe(gulp.dest(SassDest))
+		.pipe(cleanCSS({
+			compatibility: 'ie8'
+		}))
+
+		.pipe(rename(function (path) {
+			path.basename += ".min";
+		}))
+		.pipe(sourcemaps.write('./maps'))
+		.pipe(gulp.dest(SassDest));
 });
 
 // gulp.task('minify-css', ['sass'], () => {
@@ -43,8 +63,9 @@ gulp.task('sass',function(){
 // 	  .pipe(gulp.dest('./css/css/min'));
 //   });
 
-gulp.task('watch',function(){
-	gulp.watch(SassSRC,['sass']);
+gulp.task('watch', function () {
+	gulp.watch(SassSRC, ['sass']);
+	gulp.watch(jsSRC, ['uglify']);
 });
 
-gulp.task('default',['sass','watch']);
+gulp.task('default', ['sass', 'watch', 'uglify']);

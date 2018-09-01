@@ -17,8 +17,13 @@ input[type="submit"] {
 	@include transition();
 }
 
+.fa {
+	@include transition();
+}
+
 a {
 	color: $anchorColor;
+
 	&:hover,
 	&:focus {
 		color: $anchorColorHover;
@@ -49,23 +54,37 @@ video {
 .btn,
 button {
 	@include border-radius(50px);
-	background: $buttonColorLight;
-	padding: 7px 25px;
+	background: $buttonHoverColor;
+	padding: 7px 20px;
 	border: 0;
 	color: $buttonColor;
+	font-size: 14px;
+
 	&:hover,
 	&:active {
-		background: $buttonHoverColor;
+		background: $buttonColorDark;
 		color: $fontWhite;
 	}
+
 	&.dark {
 		background: $buttonColorDark;
+
 		&:hover {
 			background: $buttonHoverColor;
 		}
 	}
+
 	&.btn-submit .fa {
 		margin: 0 10px 0 0;
+	}
+
+	&.btn-transparent {
+		background-color: transparent;
+		border: 2px solid $buttonHoverColor;
+
+		&:hover {
+			background: $buttonHoverColor;
+		}
 	}
 }
 
@@ -74,6 +93,14 @@ button {
 	font-size: $fontSizeLg;
 	padding: 0 0 35px;
 	margin: 0;
+}
+
+.section-title {
+	display: block;
+	flex-basis: 100%;
+	border-bottom: 1px solid #f1f2f3;
+	padding: 0 0 3px;
+	margin-bottom: 20px;
 }
 
 .sec-subpage-banner .page-title {
@@ -147,26 +174,18 @@ p.txt-lg {
 	line-height: 27px;
 }
 
-.navbar-fixed-top:before {
-	content: "";
-	width: 100%;
-	height: 60px;
-	background: #333;
-	top: 0;
-	bottom: 0;
-	position: absolute;
-	@include Opacity(.3);
-}
-
 .breadcrumb {
 	background: transparent;
 	color: #333;
 	font-size: $fontSizeXs;
 	text-align: right;
+	justify-content: flex-end;
 	margin: 0px;
+
 	& a {
 		color: $fontColor;
 	}
+
 	& li+li:before {
 		color: #333;
 		font-size: $fonSizeXxs;
@@ -179,8 +198,9 @@ p.txt-lg {
 
 .icon-list {
 	& li {
-		margin: 0 0 0 25px;
-		line-height: 25px;
+		margin: 0 0 10px 25px;
+		line-height: 20px;
+
 		&:before {
 			content: "\f006";
 			font-family: FontAwesome;
@@ -189,10 +209,19 @@ p.txt-lg {
 			color: $faColor;
 		}
 	}
+
 	&.icon-chevron {
 		& li {
 			&:before {
 				content: "\f054";
+			}
+		}
+	}
+
+	&.icon-check-circle {
+		& li {
+			&:before {
+				content: "\f058";
 			}
 		}
 	}
@@ -208,6 +237,7 @@ p.txt-lg {
 			line-height: 25px;
 			@include border-radius(50%);
 		}
+
 		&:hover {
 			.fa {
 				color: $fontWhite;
@@ -231,6 +261,7 @@ p.txt-lg {
 	display: none;
 	cursor: pointer;
 	z-index: 999;
+
 	.fa {
 		font-size: $fontSizeMd;
 	}
@@ -262,10 +293,12 @@ img {
 		float: left;
 		margin: 0 20px 20px 0;
 	}
+
 	&.align-right {
 		float: left;
 		margin: 0 0px 20px 20px;
 	}
+
 	&.full-size {
 		width: 100%;
 		margin: 0 0 15px;
@@ -282,6 +315,7 @@ img {
 	text-align: center;
 	vertical-align: middle;
 	display: inline-block;
+
 	& .fa-circle-icon {
 		font-size: $fontSizeMd;
 		line-height: inherit;
@@ -289,6 +323,7 @@ img {
 }
 
 @media only screen and (max-width:999px) {
+
 	.btn,
 	.button,
 	button.sss,
@@ -296,25 +331,31 @@ img {
 		padding: 5px 15px;
 		font-size: $fontSizeXs;
 	}
+
 	h2,
 	.h2 {
 		font-size: $fontSizeMd;
 	}
+
 	.breadcrumb {
 		display: none;
 	}
+
 	.page-title {
 		font-size: $fontSizeMd;
 	}
+
 	.circle-icon {
 		width: 70px;
 		height: 70px;
 		margin: 0 auto 10px;
 		line-height: 70px;
+
 		& .fa-circle-icon {
 			font-size: $fontSizeSm;
 		}
 	}
+
 	video {
 		display: none;
 	}
