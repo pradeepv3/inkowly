@@ -1,9 +1,15 @@
 $backgroundColor: #FFF;
 $backgroundColorLight: #f1f2f3;
-/* FONT FAMILY*/
-
+//FONT FAMILY
 $fontFamily: Open Sans,
 sans-serif;
+/*Header Menu*/
+
+$navItemBgHoverColor:#F1f2f3;
+$dropdownMenuBgColor: $navItemBgHoverColor;
+$dropdownBorderColor: #E5E5E5;
+$dropdownItemHoverColor:#E9E9E9;
+$dropdownItemMobileActiveColor:#E9E9E9;
 /* FONT COLORS*/
 
 $fontWhite: #FFF;
@@ -22,7 +28,7 @@ $borderColorLight: #f1f2f3;
 $borderColorDark: #CCC;
 /* ANCHOR COLORS */
 
-$anchorColor:#83b9ff;
+$anchorColor:#3078BF;
 $anchorColorHover:#448aff;
 $faColor:#448aff;
 $faBorderColor: $faColor;

@@ -2,7 +2,7 @@
 	$_GET['classname']="";
 	include("modules/_services.php"); 
 	include("modules/_our-company.php");
-	include("modules/_our-work.php");
+	include("modules/_our-work.php"); echo "<hr>";
 	include("modules/_multi-carousel.php");
 	include("modules/_request-call.php");
 	include("modules/_countdown.php");

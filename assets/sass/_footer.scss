@@ -2,8 +2,16 @@
 	background: $footerBgColor;
 	border-top: 1px solid $footerBdrColor;
 	padding: 20px 0;
+	& .sec-footer__links-col,
+	& .sec-footer__social {
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-start;
+		padding-top: 0;
+	}
 	& .navbar {
-		& .nav {
+		& .navbar-nav {
+			flex-direction: column;
 			& li {
 				float: none;
 				&:hover {
@@ -12,6 +20,9 @@
 				& a {
 					padding: 7px;
 				}
+			}
+			&.social {
+				flex-direction: row;
 			}
 			&.social li {
 				width: 30px;

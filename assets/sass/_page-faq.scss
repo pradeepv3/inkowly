@@ -1,50 +1,44 @@
-.panel-faq {
-	& .panel {
+.card-faq {
+	& .card {
 		border-radius: 0px;
+		& .card-header {
+			padding: 7px;
+		}
 		& .faq_link:hover {
 			text-decoration: none;
 		}
-		& .panel-faq__title {
-			margin: 0px;
-			padding: 0px 0 0 25px;
+		& .card-faq__title {
+			margin: 0;
+			padding: 0 0 0 10px;
 			font-size: 14px;
-			border-radius: 0px;
+			border-radius: 0;
 			position: relative;
-		}
-		& .fa {
-			position: absolute;
-			display: none;
-			left: 0;
-			top: 2px;
-		}
-		& .panel-body {
-			padding-left: 45px;
-		}
-		& .fa-plus-square {
-			display: inline;
-		}
-		& .collapse,
-		& .collapsing {
-			border-top: 1px solid #ccc;
+			cursor: pointer;
+			&:before {
+				content: "\f0fe";
+				font-family: FontAwesome;
+				color: $faColor;
+				margin-right: 7px;
+			}
 		}
 		& [aria-expanded=true] {
-			& .fa-minus-square {
-				display: inline;
-			}
-			& .fa-plus-square {
-				display: none;
+			&:before {
+				content: "\f146";
+				font-family: FontAwesome;
+				color: $faColor;
+				margin-right: 7px;
 			}
 		}
+		& .card-body {
+			padding-left: 45px;
+		}
 	}
-	& .panel-group .panel+.panel {
-		margin-top: -1px;
+	& .card+.card {
+		margin-top: -2px;
 	}
 }
 
 .faq-container {
-	padding: 0 0 20px;
-	margin: 0 0 25px;
-	border-bottom: 1px solid #CCC;
 	& .faq-container__questions {
 		padding: 0 0 30px;
 		border-bottom: 1px solid #ccc;

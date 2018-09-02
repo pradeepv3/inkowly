@@ -4,14 +4,14 @@
 
 .carousel {
 	&,
-	& .item {
+	& .carousel-item {
 		height: 500px;
 	}
 	.full-banner &,
-	.full-banner & .item {
+	.full-banner & .carousel-item {
 		height: 100vh;
 	}
-	& .item {
+	& .carousel-item {
 		background-size: cover;
 		& iframe {
 			position: absolute;
@@ -49,13 +49,20 @@
 		& .carousel-inner {
 			width: 90%;
 			margin: 0px auto;
-			& .item {
+			& .carousel-item {
 				height: 150px;
+				& .client-logo {
+					float: left;
+					line-height: 150px;
+					& img {
+						width: 100%;
+					}
+				}
 			}
 		}
 	}
 	&.parallax-slide {
-		& .item {
+		& .carousel-item {
 			background-repeat: no-repeat;
 			background-attachment: fixed;
 		}
@@ -63,13 +70,17 @@
 }
 
 .multi-carousel {
-	& .carousel-control {
+	& .carousel-control-prev,
+	& .carousel-control-next {
 		width: 4%;
-		&.left,
-		&.right {
-			margin-left: 0px;
-			background-image: none;
-		}
+		margin-left: 0px;
+		background-image: none;
+	}
+	& .carousel-control-prev-icon {
+		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%22aaa' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+	}
+	& .carousel-control-next-icon {
+		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%22aaa' viewBox='0 0 8 8'%3E%3Cpath d='M1.5 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E")
 	}
 }
 
@@ -78,7 +89,7 @@
 @media only screen and (max-width:999px) {
 	.carousel {
 		&,
-		& .item {
+		& .carousel-item {
 			height: 300px;
 			& .carousel-caption {
 				height: 50%;
@@ -96,18 +107,18 @@
 			}
 		}
 		.full-banner .sec-banner &,
-		.full-banner .sec-banner & .item {
+		.full-banner .sec-banner & .carousel-item {
 			height: 50vh;
 		}
 	}
-	.multi-carousel .carousel-inner .item {
-		height: 140px;
+	.multi-carousel .carousel-inner .carousel-item {
+		height: 140px; //display: flex;
 	}
 }
 
 @media only screen and (max-width:999px) and (orientation: landscape) {
 	.full-banner .sec-banner .carousel,
-	.full-banner .sec-banner .carousel .item {
+	.full-banner .sec-banner .carousel .carousel-item {
 		height: 100vh;
 	}
 }
@@ -116,7 +127,7 @@
 
 @media only screen and (max-width:999px) and (min-width:768px) {
 	.multi-carousel .carousel .active>div {
-		display: none;
+		//display: none;
 	}
 	.multi-carousel .carousel .active>div:first-child,
 	.multi-carousel .carousel .active>div:first-child+div,
@@ -129,22 +140,26 @@
 /* Wide and Small Phone CSS */
 
 @media only screen and (max-width:767px) {
-	.carousel-caption {
-		height: 50%;
-		& .carousel-caption__title {
-			font-weight: 600;
-			font-size: $fontSizeMd;
-			line-height: 35px;
-		}
-		& .carousel-caption__text {
-			font-size: $fontSizeXs;
-		}
-		& .carousel-caption__btn {
-			padding: 7px 30px;
+	.carousel {
+		& .carousel-item {
+			.carousel-caption {
+				height: 50%;
+				& .carousel-caption__title {
+					font-weight: 600;
+					font-size: $fontSizeMd;
+					line-height: 35px;
+				}
+				& .carousel-caption__text {
+					font-size: $fontSizeXs;
+				}
+				& .carousel-caption__btn {
+					padding: 7px 20px;
+				}
+			}
 		}
 	}
 	.multi-carousel .carousel .active>div {
-		display: none;
+		//display: none;
 	}
 	.multi-carousel .carousel .active>div:first-child,
 	.multi-carousel .carousel .active>div:first-child+div {

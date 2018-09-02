@@ -18,3 +18,12 @@
 		width: 100%;
 	}
 }
+
+$num: 10;
+@while $num>0 {
+	.start-am-af-#{$num}s {
+		-webkit-animation-delay: #{$num}s;
+		animation-delay: #{$num}s;
+	}
+	$num: $num - 1;
+}

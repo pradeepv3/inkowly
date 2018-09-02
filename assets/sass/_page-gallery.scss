@@ -1,4 +1,7 @@
 .sec-gallery {
+	& .row {
+		margin: 0;
+	}
 	& [class^="col-"] {
 		padding: 0px !important;
 	}
