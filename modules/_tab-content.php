@@ -21,7 +21,7 @@
 					<div class="container">
 						<div class="row">
 							<div class="col-sm-3">
-								<img class="full-size" src="images/about.jpg" />
+								<img alt="InkOwly Website Templates" class="full-size" src="images/about.jpg" />
 							</div>
 							<div class="col-sm-9">
 								<h3>Maecenas eget tellus</h3>
@@ -92,15 +92,7 @@
 				<div class="tab-pane fade" id="four" role="tabpanel" aria-labelledby="four-tab">
 					<div class="container">
 						<div class="row">
-							<div class="col-sm-2">
-								<ul class="list-unstyled icon-list icon-chevron">
-									<li>Html5</li>
-									<li>Responsive </li>
-									<li>Bootstrap 3</li>
-									<li>jQuery</li>
-								</ul>
-							</div>
-							<div class="col-sm-10">
+							<div class="col-12">
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non vehicula augue. Duis sagittis vestibulum faucibus.
 									Suspendisse leo justo, laoreet ut erat nec, fringilla viverra augue. Nulla dignissim massa vitae nunc pretium semper.
 									In varius magna sit amet lorem porta, dignissim posuere nibh fermentum. Maecenas eget tellus in libero varius hendrerit.

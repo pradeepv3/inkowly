@@ -2,18 +2,24 @@
 	color: #fff;
 	background-image: url(../images/workplace-.jpg);
 	position: relative;
+
 	& .content-overlay {
 		@include Opacity(.8);
 	}
+
 	& .sec-ourcompany__content {
 		position: relative;
 	}
+
 	& .sec-ourcompany__text {
-		padding: 0 0 15px;
-		line-height: 35px;
+		padding: 0;
+		line-height: 30px;
+		font-size: 14px;
 	}
+
 	& .sec-ourcompany__phone {
 		font-size: 18px;
+
 		& .fa {
 			vertical-align: middle;
 			font-size: 30px;

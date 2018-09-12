@@ -19,7 +19,7 @@
 		</div>
 	</div>
 </section>
-<section class="m-content-wrapper sec-subpage-main sec-faq">
+<section class="m-content-wrapper sec-subpage-main sec-404">
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-6 text-center">
@@ -30,7 +30,7 @@
 					nulla non pulvinar. Cum sociis natoque penatibus magnis.</p>
 				<form role="search">
 					<div class="input-group add-on">
-						<input class="form-control" placeholder="Search" name="srch-term" id="srch-term" type="text">
+						<input class="form-control mr-2" placeholder="Search" name="srch-term" id="srch-term" type="text">
 						<div class="input-group-append">
 							<div class="input-group-btn">
 								<button class="btn btn-default" type="submit">
@@ -44,4 +44,4 @@
 		</div>
 	</div>
 </section>
-<?php include("modules/common/_footer.php"); ?>
+<?php include("modules/common/_footer.php"); 

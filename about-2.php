@@ -22,7 +22,7 @@
 	<div class="section br-sec-line text-center">
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-8 offset-sm-2">
+				<div class="col-12 col-lg-8 offset-lg-2">
 					<h3 class="sec-title br-line">InkOwly</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique excepturi voluptates placeat ducimus delectus magnam
 						tempore dolore dolorem quisquam porro modi voluptatum eum saepe dolorum.</p>
@@ -39,4 +39,4 @@
 
 
 </section>
-<?php include("modules/common/_footer.php"); ?>
+<?php include("modules/common/_footer.php"); 

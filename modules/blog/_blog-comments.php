@@ -13,15 +13,15 @@
 				?>
 			<div class="list-group-item align-items-start d-flex comment-body <?php echo $replyclass;  ?> mb-3">
 				<div class="d-flex avatar">
-					<img class="rounded-circle" src="http://localhost/inkowly/images/no_image.jpg" alt="name">
+					<img class="rounded-circle" src="https://picsum.photos/80/80?image=<?php echo $i+100; ?>"
+					 alt="name">
 				</div>
 				<div class="comment-txt">
 					<div class="d-flex w-100 justify-content-between">
 						<h5 class="comment-author">Name</h5>
 						<small>3 days ago</small>
 					</div>
-					<p class="mb-1">Donec id elit non mi porta gravida at eget metusDonec id elit non mi porta gravida at eget
-						metusDonec id elit non mi
+					<p class="mb-1">Donec id elit non mi porta gravida at eget metusDonec id elit non mi porta gravida at eget metusDonec id elit non mi
 						porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
 					<small>Donec id elit non mi porta.</small>
 				</div>

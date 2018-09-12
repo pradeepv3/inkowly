@@ -2,9 +2,9 @@
 	<div class="container controls">
 		<h2 class="sec-title br-line text-center">Our Recent Works</h2>
 		<div class="sec-ourwork-controls text-center">
-			<button class="filter" data-filter="all">All</button>
-			<button class="filter" data-filter=".web-design">Web Design</button>
-			<button class="filter" data-filter=".fill-logo">Logo</button>
+			<button class="btn filter" data-filter="all">All</button>
+			<button class="btn filter" data-filter=".web-design">Web Design</button>
+			<button class="btn filter" data-filter=".fill-logo">Logo</button>
 		</div>
 	</div>
 	<div id="work_filter" class="container">

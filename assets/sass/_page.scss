@@ -1,6 +1,18 @@
 .sec-subpage-banner {
 	background-color: #CCC;
 	padding: 50px 0;
+	background-image: url(../images/pexels-photo.jpeg);
+	position: relative;
+
+	&:before {
+		content: "";
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		background: #333;
+		@include Opacity(.7);
+	}
 
 	& .row {
 		margin: 0;
@@ -14,19 +26,23 @@
 		}
 	}
 
-	&.bg-linear-gradient {
-		@include linear-gradient(#3078bf, #193a6b);
+	& .page-title {
+		color: #fff;
+		font-weight: 300;
+	}
+
+	& .breadcrumb {
 		color: #FFF;
 
-		& .breadcrumb {
-			color: #FFF;
-
-			& a,
-			& .active,
-			&>li+li:before {
-				color: #fff;
-			}
+		& a,
+		& .active,
+		&>li+li:before {
+			color: #fff;
 		}
+	}
+
+	&.bg-linear-gradient {
+		@include linear-gradient(#3078bf, #193a6b);
 	}
 
 	&.page-banner {
@@ -34,6 +50,10 @@
 		height: 350px;
 		position: relative;
 		color: #fff;
+
+		&:before {
+			display: none;
+		}
 
 		& div[class*="col-"] {
 			display: block !important; //text-align: center;

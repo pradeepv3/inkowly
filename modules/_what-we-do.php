@@ -1,7 +1,7 @@
 <div class="section clearfix">
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-6">
+			<div class="col-12 col-lg-6">
 				<h3 class="sec-title">What we do?</h3>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique excepturi voluptates placeat ducimus delectus magnam
 					tempore dolore dolorem quisquam porro modi voluptatum eum saepe dolorum.</p>
@@ -25,7 +25,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-sm-6">
+			<div class="col-12  col-lg-6">
 				<img alt="About us" class="full-size" src="images/responsive.png" />
 			</div>
 		</div>

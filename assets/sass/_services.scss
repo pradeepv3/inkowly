@@ -2,22 +2,34 @@
 	& .sec-services__icon {
 		background: #f1f2f3;
 	}
+
 	& .sec-services__text {
 		margin: 0 0 20px;
+		@include multiLineEllipsis($lineHeight: 1.8em, $lineCount: 4, $bgColor: white);
 	}
+
 	& .sec-services__img {
 		img {
 			width: 100%;
 		}
 	}
-	@media only screen and (max-width:999px) {
-		margin: 0px;
-	}
+
 	& .sec-services__item {
-		height: 245px;
+		// height: 245px;
+		margin: 0 0 30px;
 	}
+
 	& h3 {
 		font-size: 20px;
 		padding: 0 0 7px;
+		text-transform: uppercase;
+
+		@media only screen and (max-width: 999px) {
+			font-size: 16px;
+		}
+	}
+
+	@media only screen and (max-width:999px) {
+		margin: 0px;
 	}
 }
