@@ -1,4 +1,4 @@
-<div class="section sec-blog clearfix">
+<div class="section clearfix">
 	<div class="col-xs-12 post-entry">
 		<div class="post-entry__pic">
 			<img src="images/web1.jpg" alt="Quisque a metus mollis, condimentum diam commodo, euismod neque" />

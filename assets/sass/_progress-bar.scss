@@ -3,29 +3,41 @@
 		margin: 0px;
 		padding-bottom: 15px;
 	}
+
 	& .sec-progressbar__img {
 		width: 100%;
 	}
+
 	& .sec-progressbar-opensource {
 		padding: 20px 0;
+
 		& .fa {
 			font-size: 30px;
 			margin: 0 15px 0 0;
 		}
 	}
+
 	& .progress-bars {
 		padding-top: 30px;
+
 		& .progress {
 			margin-bottom: 1rem;
+
 			& .progress-bar {
 				flex-direction: row;
+
 				& span {
 					padding: 0 7px;
 					flex-basis: 50%;
+					font-size: 11px;
+					line-height: 17px;
+					text-transform: uppercase;
+					font-weight: 600;
 				}
 			}
 		}
 	}
+
 	@media only screen and (max-width: 767px) {
 		& div[class*="col-"] {
 			margin: 0 0 15px 0;

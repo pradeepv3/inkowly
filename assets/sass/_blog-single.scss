@@ -6,7 +6,11 @@
 	}
 
 	& .post-entry__pic {
-		height: 500px;
+		height: 400px;
+
+		& img {
+			width: 100%;
+		}
 
 		@media only screen and (max-width: 767px) {
 			height: 250px;
@@ -81,7 +85,7 @@
 
 			& .post-entry__pic {
 				position: relative;
-				height: 300px;
+				height: 400px;
 			}
 
 			& .post-entry__title {

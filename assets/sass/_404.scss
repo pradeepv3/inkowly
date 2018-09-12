@@ -1,4 +1,10 @@
-h3.not-found__404 {
-	font-size: 175px;
-	color: #CCC;
+.sec-404 {
+	& h3.not-found__404 {
+		font-size: 175px;
+		color: #CCC;
+	}
+
+	& .form-control {
+		height: calc(35px)
+	}
 }

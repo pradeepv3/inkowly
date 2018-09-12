@@ -1,4 +1,4 @@
-<div class="sec-blog post-entry clearfix">
+<div class="post-entry clearfix">
 	<div class="post-entry__pic">
 		<img src="images/web4.jpg" alt="Vestibulum eu nisi quis ipsum egestas cursus nec eget quam" />
 		<h3 class="post-entry__title">

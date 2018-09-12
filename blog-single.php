@@ -20,7 +20,7 @@
 	</div>
 </section>
 
-<div class="container blog-single">
+<div class="container blog-post-entry blog-single">
 	<div class="row">
 		<main class="col-sm-8">
 			<?php

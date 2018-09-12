@@ -22,7 +22,7 @@
 			<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Pages </a>
 			<ul class="dropdown-menu">
 				<li class="dropdown ">
-					<a class="dropdown-item dropdown-toggle" data-toggle="dropdown" href="about-1.php">About </a>
+					<a class="dropdown-item dropdown-toggle" data-toggle="dropdown" href="#">About </a>
 					<ul class="dropdown-menu">
 						<li>
 							<a class="dropdown-item" href="about-1.php">About Us 1</a>
@@ -83,6 +83,20 @@
 				</li>
 				<li>
 					<a class="dropdown-item" href="services-3.php">Services 3</a>
+				</li>
+			</ul>
+		</li>
+		<li class="nav-item dropdown">
+			<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Blog </a>
+			<ul class="dropdown-menu">
+				<li>
+					<a class="dropdown-item" href="blog-home.php">Blog Home</a>
+				</li>
+				<li>
+					<a class="dropdown-item" href="blog-single.php">Blog Post</a>
+				</li>
+				<li>
+					<a class="dropdown-item" href="blog-single-one-column.php">Blog Post Single Column</a>
 				</li>
 			</ul>
 		</li>
