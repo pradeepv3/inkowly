@@ -2,6 +2,10 @@
 	1. Multiple Carousel
 	2. Counter
 */
+if (/MSIE\s/.test(navigator.userAgent) && parseFloat(navigator.appVersion.split("MSIE")[1]) < 10) {
+	//document.body.innerHTML = '<div class="e-warning"><div class="">Dear User, You are using old browser. Please upate</div>';
+	window.location.href = "ie-warning.php";
+}
 var IOY = (typeof IOY !== 'undefined' && typeof IOY === "object") ? IOY : {};
 
 (function ($) {
@@ -78,6 +82,8 @@ var IOY = (typeof IOY !== 'undefined' && typeof IOY === "object") ? IOY : {};
 	};
 
 	$(function () {
+
+
 
 		var $multiItem = $('.carousel[data-type="multi"] .carousel-item');
 		$multiItem.length && IOY.MultiCarousel();

@@ -4,14 +4,14 @@
 			<div class="col-md-4 col-lg-4 d-none d-lg-block">
 				<img class="sec-progressbar__img" src="images/progressbar.jpg" alt="Our Skils" />
 			</div>
-			<div class="col-12 col-md-6  text-left">
-				<h3 class="sec-title">Our Skils</h3>
+			<div class="col-12 col-md-6  col-lg-4 text-left">
+				<h3 class="sec-title br-line br-line-left">Our Skils</h3>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et ex eu metus ultrices accumsan. Sed sed cursus
 					leo. Sed tincidunt augue nec diam bibendum, sed consequat purus congue. Sed vitae felis lectus. Proin eleifend nibh
 					ac ipsum scelerisque fringilla.</p>
 
 			</div>
-			<div class="col-12 col-md-6 progress-bars" id="progress_bar">
+			<div class="col-12 col-md-6  col-lg-4 progress-bars" id="progress_bar">
 				<div class="progress">
 					<div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
 						<span class="text-left">HTML</span>

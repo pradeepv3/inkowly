@@ -4,21 +4,22 @@
 	margin: 0px;
 	@include linear-gradient(#193A6B, #3078bf);
 	position: relative;
+
 	& .overlay {
 		opacity: .8;
 	}
+
 	& input[type='text'],
 	& textarea {
 		border-width: 0px 0 1px 0;
 		border-bottom: 1px solid #ccc;
 		color: #FFF;
+
 		&::placeholder {
 			color: #ccc;
 		}
 	}
-	& .br-line:after {
-		margin: 0px;
-	}
+
 	@media only screen and (max-width:999px) {
 		padding: 45px 0;
 	}

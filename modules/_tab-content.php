@@ -20,10 +20,10 @@
 				<div class="tab-pane fade show active" id="one" role="tabpanel" aria-labelledby="one-tab">
 					<div class="container">
 						<div class="row">
-							<div class="col-sm-3">
+							<div class="col-12 col-lg-3">
 								<img alt="InkOwly Website Templates" class="full-size" src="images/about.jpg" />
 							</div>
-							<div class="col-sm-9">
+							<div class="col-12 col-lg-9">
 								<h3>Maecenas eget tellus</h3>
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non vehicula augue. Duis sagittis vestibulum faucibus.
 									Suspendisse leo justo, laoreet ut erat nec, fringilla viverra augue. Nulla dignissim massa vitae nunc pretium semper.
@@ -39,7 +39,7 @@
 				<div class="tab-pane fade" id="two" role="tabpanel" aria-labelledby="two-tab">
 					<div class="container">
 						<div class="row">
-							<div class="col-sm-4">
+							<div class="col-12 col-lg-4">
 								<h4>Nulla dignissim</h4>
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non vehicula augue. Duis sagittis vestibulum faucibus.
 									Suspendisse leo justo, laoreet ut erat nec, fringilla viverra augue. Nulla dignissim massa vitae nunc pretium semper.
@@ -49,7 +49,7 @@
 									vulputate.
 								</p>
 							</div>
-							<div class="col-sm-4">
+							<div class="col-12 col-lg-4">
 								<h4>Suspendisse accumsan</h4>
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non vehicula augue. Duis sagittis vestibulum faucibus.
 									Suspendisse leo justo, laoreet ut erat nec, fringilla viverra augue. Nulla dignissim massa vitae nunc pretium semper.
@@ -59,7 +59,7 @@
 									vulputate.
 								</p>
 							</div>
-							<div class="col-sm-4">
+							<div class="col-12 col-lg-4">
 								<h4>Vivamus tincidunt</h4>
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non vehicula augue. Duis sagittis vestibulum faucibus.
 									Suspendisse leo justo, laoreet ut erat nec, fringilla viverra augue. Nulla dignissim massa vitae nunc pretium semper.

@@ -38,14 +38,15 @@
 			}
 
 			&.social li {
-				width: 30px;
 				text-align: center;
-				height: 30px;
 				background: $footerBgColor;
-				margin: 0 7px 0 0;
-				line-height: 30px;
+				margin: 0 10px 0 0;
 				border-radius: 50%;
 				float: left;
+
+				& a {
+					padding: 0;
+				}
 
 				& .fa {
 					margin: 0px;

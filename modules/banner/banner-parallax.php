@@ -12,24 +12,23 @@
 			<div class="overlay"></div>
 			<div class="carousel-caption">
 				<div class="carousel-caption__title" data-animation="animated slideInRight">Clean & Modern Design</div>
-				<p class="carousel-caption__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-				<a class="btn dark carousel-caption__btn">Know More</a>
+				<p class="carousel-caption__text animated start-am-af-2s bounceInLeft">Bootstrap 4, HTML5 and Responsive Template for Corporate and Business.</p>
+				<a class="btn dark carousel-caption__btn animated start-am-af-3s bounceInDown">Know More</a>
+				<a class="btn btn-white carousel-caption__btn animated start-am-af-3s bounceInDown">Buy Now</a>
 			</div>
 		</div>
 		<div class="carousel-item" style="background-image:url(images/hb2.jpg);">
 			<div class="overlay"></div>
 			<div class="carousel-caption">
-				<div class="carousel-caption__title" data-animation="animated slideInLeft">
-					Responsive Design
-				</div>
-				<p class="carousel-caption__text">HTML5, Bootstrap</p>
+				<div class="carousel-caption__title animated start-am-af-1s slideInRight" data-animation="animated slideInRight">Clean & Modern Design</div>
+				<p class="carousel-caption__text animated start-am-af-2s bounceInLeft">Bootstrap 4, HTML5 and Responsive Template for Corporate and Business.</p>
 			</div>
 		</div>
 		<div class="carousel-item" style="background-image:url(images/hb5.jpg);">
 			<div class="overlay"></div>
 			<div class="carousel-caption">
-				<div class="carousel-caption__title" data-animation="animated slideInLeft"> 2 Example headline</div>
-				<p class="carousel-caption__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				<div class="carousel-caption__title animated start-am-af-1s slideInRight" data-animation="animated slideInRight">Clean & Modern Design</div>
+				<p class="carousel-caption__text animated start-am-af-2s bounceInLeft">Bootstrap 4, HTML5 and Responsive Template for Corporate and Business.</p>
 			</div>
 		</div>
 	</div>

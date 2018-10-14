@@ -26,6 +26,9 @@
 		include("modules/_what-we-do.php");
 		echo "<hr>";
 		include("modules/_services.php");
+		echo "<hr>";
+		include("modules/_our-pricing.php");
+		echo "<hr>";
 		include("modules/_tab-content.php");
 		include("modules/_typewrite.php");
 		include("modules/_testimonial.php") ;

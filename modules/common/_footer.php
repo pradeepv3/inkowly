@@ -41,29 +41,29 @@
 					<ul class="nav navbar-nav social">
 						<li>
 							<a href="">
-								<span class="fa fa-facebook"></span>
+								<span class="fa fa-facebook facebook"></span>
 							</a>
 						</li>
 						<li>
 							<a href="">
-								<span class="fa fa-twitter"></span>
+								<span class="fa fa-twitter twitter"></span>
 							</a>
 						</li>
 						<li>
 							<a href="">
-								<span class="fa fa-google"></span>
+								<span class="fa fa-google google-plus"></span>
 							</a>
 						</li>
 						<li>
 							<a href="">
-								<span class="fa fa-linkedin"></span>
+								<span class="fa fa-linkedin linkedin"></span>
 							</a>
 						</li>
-						<!-- <li>
+						<li>
 							<a href="">
-								<span class="fa fa-rss"></span>
+								<span class="fa fa-pinterest pinterest"></span>
 							</a>
-						</li> -->
+						</li>
 					</ul>
 				</div>
 				<div class="col-12 col-sm-4 col-md-4 d-none d-md-block clearfix">

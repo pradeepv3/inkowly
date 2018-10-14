@@ -3,20 +3,25 @@
 		&.sidebar_menu {
 			border-radius: 0px;
 			border: 0;
+			margin-top: 30px;
+
 			& .sidebar_menu-title {
 				background: #448aff;
 				border-radius: 0;
+
 				& a {
 					color: #FFF;
 					font-size: 15px;
 					text-transform: uppercase;
 				}
 			}
+
 			& .sidebar_menu-list {
 				& a {
 					& .fa {
 						padding-right: 10px;
 					}
+
 					&:hover {
 						& .fa {
 							padding-right: 15px;
@@ -24,14 +29,21 @@
 					}
 				}
 			}
-			@media only screen and (min-width:767px) {
+
+			@media only screen and (min-width:569px) {
+
 				& .sidebar_menu-list,
 				& .sidebar_menu-list.collapse,
 				& .sidebar_menu-list.collapsing {
 					display: block !important;
 					height: auto !important;
 				}
+
+				& .dropdown-toggle::after {
+					display: none;
+				}
 			}
+
 			@media only screen and (max-width:767px) {
 				border: 1px solid #f1f2f3;
 			}
