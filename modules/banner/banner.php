@@ -10,39 +10,38 @@
 	<div class="carousel-inner">
 		<div class="carousel-item active" style="background-image:url(images/hb4.jpg);">
 			<div class="overlay"></div>
-			<div class="carousel-caption" >
+			<div class="carousel-caption">
 				<div class="carousel-caption__title animated start-am-af-1s slideInRight" data-animation="animated slideInRight">Clean & Modern Design</div>
-				<p class="carousel-caption__text animated start-am-af-2s bounceInLeft">A perfect template for corporate. Nice and clean design.</p>
+				<p class="carousel-caption__text animated start-am-af-2s bounceInLeft">Bootstrap 4, HTML5 and Responsive Template for Corporate and Business.</p>
 				<a class="btn dark carousel-caption__btn animated start-am-af-3s bounceInDown">Know More</a>
+				<a class="btn btn-white carousel-caption__btn animated start-am-af-3s bounceInDown">Buy Now</a>
 			</div>
 		</div>
 
 		<div class="carousel-item" style="background-image:url(images/hb2.jpg);">
 			<div class="overlay"></div>
-			<div class="carousel-caption" >
-				<div class="carousel-caption__title animated start-am-af-1s slideInRight" data-animation="animated slideInLeft">Bootstrap3 HTML5 Template</div>
-				<p class="carousel-caption__text  animated start-am-af-2s slideInLeft">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-				<a class="btn dark carousel-caption__btn animated start-am-af-3s bounceInDown">Know More</a>
-				<a class="btn btn-transparent carousel-caption__btn animated start-am-af-3s bounceInDown">Know More</a>
+			<div class="carousel-caption">
+				<div class="carousel-caption__title animated start-am-af-1s slideInRight" data-animation="animated slideInRight">Clean & Modern Design</div>
+				<p class="carousel-caption__text animated start-am-af-2s bounceInLeft">Bootstrap 4, HTML5 and Responsive Template for Corporate and Business.</p>
 			</div>
 		</div>
 
 		<div class="carousel-item" style="background-image:url(images/hb5.jpg);">
-			<div class="overlay"></div>			     
+			<div class="overlay"></div>
 			<div class="carousel-caption">
-				<div class="carousel-caption__title" data-animation="animated slideInLeft"> 2 Example headline</div>
-				<p class="carousel-caption__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				<div class="carousel-caption__title animated start-am-af-1s slideInRight" data-animation="animated slideInRight">Clean & Modern Design</div>
+				<p class="carousel-caption__text animated start-am-af-2s bounceInLeft">Bootstrap 4, HTML5 and Responsive Template for Corporate and Business.</p>
 			</div>
 		</div>
 	</div>
 
-			  <!-- Controls -->
+	<!-- Controls -->
 	<a class="left carousel-control-prev" href="#carousel-banner" role="button" data-slide="prev">
-	<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-	<span class="sr-only">Previous</span>
+		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		<span class="sr-only">Previous</span>
 	</a>
 	<a class="right carousel-control-next" href="#carousel-banner" role="button" data-slide="next">
-	<span class="carousel-control-next-icon" aria-hidden="true"></span>
-	<span class="sr-only">Next</span>
+		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+		<span class="sr-only">Next</span>
 	</a>
 </div>

@@ -23,10 +23,11 @@
 <section class="m-content-wrapper sec-gallery clearfix">
 	<div class="section clearfix">
 		<div class="row">
-			<?php for($i=0; $i<=20; $i++ ) { if($i==0) {$activeClass= "active";}else {$activeClass= "";} ?>
-			<div class="col-6 col-xws-4 col-md-2">
-				<a class="grouped_elements" data-fancybox-group="group1" href="https://picsum.photos/200/200/">
-					<img class="" src="https://picsum.photos/200/200/?<?php echo $i; ?>" alt="Aliquam non enim" />
+			<?php for($i=1; $i<=20; $i++ ) { ?>
+			<div class="col-4 col-md-3 col-lg-2">
+				<a class="grouped_elements" data-fancybox-group="group1" href="images/gallery/pic<?php echo $i; ?>.jpg">
+					<img class="" src="images/gallery/pic<?php echo $i; ?>-s.jpg" alt="Aliquam non enim"
+					/>
 				</a>
 			</div>
 			<?php } ?>
@@ -36,4 +37,4 @@
 <div id="move-top" class="move-top">
 	<span class="fa fa-angle-double-up"></span>
 </div>
-<?php include("modules/common/_footer.php"); ?>
+<?php include("modules/common/_footer.php"); 

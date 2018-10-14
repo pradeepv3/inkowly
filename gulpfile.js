@@ -9,7 +9,10 @@ var uglify = require("gulp-uglify");
 var sourcemaps = require("gulp-sourcemaps");
 
 var SassSRC = './assets/sass/*.scss';
-var SassDest = './css/';
+var SassDest = './assets/css/';
+
+var cssSrc = './assets/css/*.css';
+var cssSrcDest = './css/';
 
 var jsSRC = './assets/js/*.js';
 var jsDest = './js/'
@@ -21,7 +24,6 @@ var jsDest = './js/'
 // });
 
 gulp.task('changed', function () {
-	console.log("changed");
 	return gulp.src(SassSRC)
 		.pipe(changed(SassDest))
 		.pipe(gulp.dest(SassDest));
@@ -41,31 +43,30 @@ gulp.task('sass', function () {
 	gulp.src(SassSRC)
 		.pipe(sourcemaps.init())
 		.pipe(sass().on('error', sass.logError))
-
 		.pipe(gulp.dest(SassDest))
-		.pipe(cleanCSS({
-			compatibility: 'ie8'
-		}))
-
-		.pipe(rename(function (path) {
-			path.basename += ".min";
-		}))
 		.pipe(sourcemaps.write('./maps'))
 		.pipe(gulp.dest(SassDest));
 });
 
-// gulp.task('minify-css', ['sass'], () => {
-// 	return gulp.src('./css/css/style.css')
-// 	  .pipe(cleanCSS({compatibility: 'ie8'}))
-// 	  .pipe(rename(function(path){
-// 		path.basename += ".min";
-// 	  }))
-// 	  .pipe(gulp.dest('./css/css/min'));
-//   });
+gulp.task('cleancss', () => {
+	return gulp.src(cssSrc)
+		.pipe(cleanCSS({
+			level: {
+				1: {
+					specialComments: 0
+				}
+			}
+		}))
+		.pipe(rename(function (path) {
+			path.basename += ".min";
+		}))
+		.pipe(gulp.dest(cssSrcDest));
+});
 
 gulp.task('watch', function () {
 	gulp.watch(SassSRC, ['sass']);
+	gulp.watch(cssSrc, ['cleancss']);
 	gulp.watch(jsSRC, ['uglify']);
 });
 
-gulp.task('default', ['sass', 'watch', 'uglify']);
+gulp.task('default', ['sass', 'watch', 'uglify', 'cleancss']);

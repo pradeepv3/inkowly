@@ -23,12 +23,12 @@
 	<div class="section sec-services__content clearfix">
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-6">
+				<div class="col-12 col-lg-6">
 					<div class="sec-services__img">
 						<img alt="Inkowly" src="images/work/web3.jpg" />
 					</div>
 				</div>
-				<div class="col-sm-6">
+				<div class="col-12 col-lg-6">
 					<div class="sec-services__text">
 						<h3>Tiorta ac consecteturtle</h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non neque egestas, cursus tortor quis, imperdiet magna.

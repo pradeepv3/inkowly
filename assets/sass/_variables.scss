@@ -1,39 +1,74 @@
 $backgroundColor: #FFF;
 $backgroundColorLight: #f1f2f3;
+$bodyfontColor: #333;
+
 //FONT FAMILY
 $fontFamily: Open Sans,
 sans-serif;
+$fontFamilyHeading: 'Josefin Sans',
+Open Sans,
+sans-serif;
+
 /*Header Menu*/
-$navItemBgHoverColor:#F1f2f3;
-$dropdownMenuBgColor: $navItemBgHoverColor;
-$dropdownBorderColor: #E5E5E5;
-$dropdownItemHoverColor:#E9E9E9;
-$dropdownItemMobileActiveColor:#E9E9E9;
-/* FONT COLORS*/
-$fontWhite: #FFF;
-$fontColor: #333;
-/* FONT SIZE*/
-$fontSizeXxl: 50px;
-$fontSizeLg: 40px;
-$fontSizeMd: 25px;
-$fontSizeSm: 17px;
-$fontSizeXs: 13px;
-$fonSizeXxs: 10px;
+$navBrandColor: #000;
+$navBrandHoverColor: #448aff;
+
+$navBrandFixedColor: #FFF;
+$navBrandFixedHoverColor: #333;
+
+$navBarColor: #333;
+$navBarHoverColor: #333;
+
+$navBarBgColor: #F1F2F3;
+$navBarBgHoverColor: #E9E9E9;
+
+$navBarBgWrapperMobileColor: #F1F2F3;
+$navBarMobileColor: #333;
+$navBarBgMobileHighlightColor: #E9E9E9;
+
+$navBarBorderColor: #E5E5E5;
+
+
 /* BORDER COLORS */
 $borderColorLight: #f1f2f3;
 $borderColorDark: #CCC;
+
 /* ANCHOR COLORS */
 $anchorColor:#3078BF;
 $anchorColorHover:#448aff;
+
 $faColor:#448aff;
 $faBorderColor: #333;
 $faBackgroundrColor: $faColor;
+
 /* BUTTON COLORS */
-$buttonColorLight: #83b9ff;
-$buttonColorDark: #3078BF;
-$buttonHoverColor: #448aff;
-$buttonColor: #FFF;
-/*CAROUSEL FONT SIZE*/
+$buttonDefaultColor:#FFF;
+$buttonDefaultBgColor:#448aff;
+$buttonDefaultHoverColor:#FFF;
+$buttonDefaultHoverBgColor:#3078BF;
+$buttonDefaultBdrColor:#3078BF;
+
+$buttonDarkColor:#FFF;
+$buttonDarkBgColor: #3078BF;
+$buttonDarkHoverColor:#FFF;
+$buttonDarkHoverBgColor:#448aff;
+$buttonDarkBdrColor:#3078BF;
+
+$buttonTransparentColor: #FFF;
+$buttonTransparentBdrColor: #3078BF;
+$buttonTransparentHoverColor: #FFF;
+$buttonTransparentHoverBgColor:#3078BF;
+
+$buttonWhiteColor:#448aff;
+$buttonWhiteBgColor: #FFF;
+$buttonWhiteHoverColor:#FFF;
+$buttonDarkHoverBgColor:#448aff;
+$buttonDarkBdrColor:#fff;
+
+/*BreadCrum Color*/
+$breadcrumbColor: #333;
+$breadcrumbAnchorColor: #FFF;
+
 /* FOOTER COLORS */
 $footerBgColor: #f1f2f3;
 $footerBdrColor: #ccc;

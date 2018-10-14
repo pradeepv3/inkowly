@@ -5,6 +5,7 @@
 .g-map {
 	height: 250px;
 	@include filter(grayscale, 99%);
+
 	iframe {
 		width: 100%;
 		height: 100%;
@@ -22,4 +23,14 @@
 
 .location .fa {
 	margin-right: 15px;
+}
+
+.sec-contactus {
+	.input-group-text {
+		width: 45px;
+
+		& .fa {
+			margin: 0px auto;
+		}
+	}
 }

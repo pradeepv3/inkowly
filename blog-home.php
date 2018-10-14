@@ -22,12 +22,12 @@
 
 <div class="container blog-list">
 	<div class="row">
-		<main class="col-sm-8">
+		<main class="col-12 col-md-8">
 			<?php
 include "modules/blog/_blog-list.php";
 ?>
 		</main>
-		<aside class="col-sm-4">
+		<aside class="col-12 col-md-4">
 			<?php
 			//include("modules/blog/_blog-widget-aboutus.php");
 			include "modules/blog/_blog-widget-latest-post.php";

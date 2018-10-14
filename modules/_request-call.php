@@ -2,7 +2,7 @@
 	<div class="container clearfix">
 		<div class="row">
 			<div class="col-sm-6 col-md-6">
-				<h2 class="sec-title br-line">Request a Call</h2>
+				<h2 class="sec-title br-line br-line-left">Request a Call</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et ex eu metus ultrices accumsan. Sed sed cursus
 					leo. Sed tincidunt augue nec diam bibendum, sed consequat purus congue. Sed vitae felis lectus. Proin eleifend nibh
 					ac ipsum scelerisque fringilla.

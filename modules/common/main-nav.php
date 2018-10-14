@@ -1,5 +1,8 @@
 <div id="navbar" class="navbar-collapse collapse">
-	<ul class="navbar-nav">
+	<ul class="navbar-nav ml-auto">
+		<li class="nav-item dropdown brand-nav-link d-md-none d-lg-none">
+			<a class="nav-link" data-toggle="dropdown" href="index.php">InkOwly</a>
+		</li>
 		<li class="nav-item dropdown">
 			<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="index-1.php" id="homeDropdown" role="button">Home </a>
 			<ul class="dropdown-menu" aria-labelledby="homeDropdown">
@@ -88,7 +91,7 @@
 		</li>
 		<li class="nav-item dropdown">
 			<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Blog </a>
-			<ul class="dropdown-menu">
+			<ul class="dropdown-menu dropdown-menu-right">
 				<li>
 					<a class="dropdown-item" href="blog-home.php">Blog Home</a>
 				</li>

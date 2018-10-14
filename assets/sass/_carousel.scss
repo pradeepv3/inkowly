@@ -32,16 +32,16 @@
 			left: 0;
 			right: 0;
 			width: 80%;
-			height: 40%;
+			height: 50%;
 			margin: auto;
 
 			& .carousel-caption__title {
 				font-weight: 700;
-				font-size: $fontSizeXxl;
+				font-size: 50px;
 			}
 
 			& .carousel-caption__text {
-				font-size: $fontSizeMd;
+				font-size: 25px;
 			}
 
 			& .carousel-caption__btn {
@@ -114,12 +114,12 @@
 				//height: 50%;
 				& .carousel-caption__title {
 					font-weight: 600;
-					font-size: $fontSizeLg;
+					font-size: 40px;
 					line-height: 45px;
 				}
 
 				& .carousel-caption__text {
-					font-size: $fontSizeSm;
+					font-size: 25px;
 				}
 
 				& .carousel-caption__btn {
@@ -175,7 +175,7 @@
 				}
 
 				& .carousel-caption__text {
-					font-size: $fontSizeXs;
+					font-size: 13px;
 				}
 
 				& .carousel-caption__btn {
