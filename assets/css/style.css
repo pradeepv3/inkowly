@@ -694,7 +694,8 @@ img.full-size {
   height: 100vh; }
 
 .carousel .carousel-item {
-  background-size: cover; }
+  background-size: cover;
+  position: relative; }
   .carousel .carousel-item iframe {
     position: absolute;
     width: 100%;
@@ -703,13 +704,12 @@ img.full-size {
     bottom: 0;
     border: 0; }
   .carousel .carousel-item .carousel-caption {
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    top: 50%;
+    bottom: auto;
+    left: 50%;
+    right: auto;
     width: 80%;
-    height: 50%;
-    margin: auto; }
+    transform: translate(-50%, -50%); }
     .carousel .carousel-item .carousel-caption .carousel-caption__title {
       font-weight: 700;
       font-size: 50px; }
@@ -1241,22 +1241,22 @@ img.full-size {
   margin: 0 0 30px;
   border-bottom: 1px solid #CCC; }
   .blog-list .post-entry .post-entry__pic {
-    height: 300px; }
+    height: auto;
+    max-height: 300px; }
     @media only screen and (max-width: 767px) {
       .blog-list .post-entry .post-entry__pic {
-        height: 250px; } }
+        height: auto;
+        max-height: 200px; } }
 
 @media only screen and (max-width: 767px) {
   .blog-post-entry .sec-blog {
     padding-top: 0; } }
 
 .blog-post-entry .post-entry__pic {
-  height: 400px; }
+  height: auto;
+  max-height: 400px; }
   .blog-post-entry .post-entry__pic img {
     width: 100%; }
-  @media only screen and (max-width: 767px) {
-    .blog-post-entry .post-entry__pic {
-      height: 250px; } }
 
 .blog-post-entry .blockquote {
   padding: 20px;
@@ -1667,4 +1667,4 @@ img.full-size {
         margin: 0;
         padding: 0 0 10px; }
 
-/*# sourceMappingURL=maps/style.css.map */
+/*# sourceMappingURL=../../css/maps/style.css.map */
