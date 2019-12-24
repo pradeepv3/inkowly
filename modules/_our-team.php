@@ -15,17 +15,17 @@
 							<ul class="list-inline social">
 								<li class="list-inline-item">
 									<a href="">
-										<span class="fa fa-facebook-f"></span>
+										<span class="fa fa-facebook facebook"></span>
 									</a>
 								</li>
 								<li class="list-inline-item">
 									<a href="">
-										<span class="fa fa-twitter"></span>
+										<span class="fa fa-twitter twitter"></span>
 									</a>
 								</li>
 								<li class="list-inline-item">
 									<a href="">
-										<span class="fa fa-pinterest-p"></span>
+										<span class="fa fa-pinterest pinterest"></span>
 									</a>
 								</li>
 							</ul>
@@ -47,17 +47,17 @@
 							<ul class="list-inline social">
 								<li class="list-inline-item">
 									<a href="">
-										<span class="fa fa-facebook-f"></span>
+										<span class="fa fa-facebook facebook"></span>
 									</a>
 								</li>
 								<li class="list-inline-item">
 									<a href="">
-										<span class="fa fa-twitter"></span>
+										<span class="fa fa-twitter twitter"></span>
 									</a>
 								</li>
 								<li class="list-inline-item">
 									<a href="">
-										<span class="fa fa-pinterest-p"></span>
+										<span class="fa fa-pinterest pinterest"></span>
 									</a>
 								</li>
 							</ul>
@@ -78,17 +78,17 @@
 							<ul class="list-inline social">
 								<li class="list-inline-item ">
 									<a href="">
-										<span class="fa fa-facebook-f"></span>
+										<span class="fa fa-facebook facebook"></span>
 									</a>
 								</li>
 								<li class="list-inline-item">
 									<a href="">
-										<span class="fa fa-twitter"></span>
+										<span class="fa fa-twitter twitter"></span>
 									</a>
 								</li>
 								<li class="list-inline-item">
 									<a href="">
-										<span class="fa fa-pinterest-p"></span>
+										<span class="fa fa-pinterest pinterest"></span>
 									</a>
 								</li>
 							</ul>
@@ -109,17 +109,17 @@
 							<ul class="list-inline social">
 								<li class="list-inline-item">
 									<a href="">
-										<span class="fa fa-facebook-f"></span>
+										<span class="fa fa-facebook facebook"></span>
 									</a>
 								</li>
 								<li class="list-inline-item">
 									<a href="">
-										<span class="fa fa-twitter"></span>
+										<span class="fa fa-twitter twitter"></span>
 									</a>
 								</li>
 								<li class="list-inline-item">
 									<a href="">
-										<span class="fa fa-pinterest-p"></span>
+										<span class="fa fa-pinterest pinterest"></span>
 									</a>
 								</li>
 							</ul>

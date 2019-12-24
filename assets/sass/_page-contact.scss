@@ -1,36 +1,36 @@
 .page-banner.contact {
-	background: transparent;
+    background: transparent;
 }
 
 .g-map {
-	height: 250px;
-	@include filter(grayscale, 99%);
+    height: 250px;
+    filter: grayscale(99%);
 
-	iframe {
-		width: 100%;
-		height: 100%;
-		border: 0;
-	}
+    iframe {
+        width: 100%;
+        height: 100%;
+        border: 0;
+    }
 }
 
 .sec-subpage-banner.map .container {
-	display: none;
+    display: none;
 }
 
 .aside .location .address {
-	display: flex;
+    display: flex;
 }
 
 .location .fa {
-	margin-right: 15px;
+    margin-right: 15px;
 }
 
 .sec-contactus {
-	.input-group-text {
-		width: 45px;
+    .input-group-text {
+        width: 45px;
 
-		& .fa {
-			margin: 0px auto;
-		}
-	}
+        & .fa {
+            margin: 0px auto;
+        }
+    }
 }

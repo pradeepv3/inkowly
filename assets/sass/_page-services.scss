@@ -1,28 +1,28 @@
 .sec-subpage-main {
-	&.sec-services .panel-heading .caret {
-		float: right;
-		top: 10px;
-		position: relative;
-	}
+    &.sec-services .panel-heading .caret {
+        float: right;
+        top: 10px;
+        position: relative;
+    }
 
-	&.sec-services .panel-heading a {
-		text-decoration: none;
-	}
+    &.sec-services .panel-heading a {
+        text-decoration: none;
+    }
 
-	@media only screen and (min-width: 768px) {
-		.sec-services .panel .list-group {
-			display: block !important;
-			height: auto !important;
-		}
+    @media only screen and (min-width: 768px) {
+        .sec-services .panel .list-group {
+            display: block !important;
+            height: auto !important;
+        }
 
-		.sec-services__img {
-			margin: 0 0 30px;
-		}
-	}
+        .sec-services__img {
+            margin: 0 0 30px;
+        }
+    }
 
-	@media only screen and (max-width: 768px) {
-		.sec-services__img {
-			margin: 0 0 30px;
-		}
-	}
+    @media only screen and (max-width: 768px) {
+        .sec-services__img {
+            margin: 0 0 30px;
+        }
+    }
 }

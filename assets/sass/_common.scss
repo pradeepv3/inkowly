@@ -1,33 +1,33 @@
 body {
-	font-family: $fontFamily;
-	font-size: 13px;
-	line-height: 1.7;
-	font-weight: 400;
-	color: $bodyfontColor;
+    font-family: $fontFamily;
+    font-size: 15px;
+    line-height: 1.7;
+    font-weight: 400;
+    color: $bodyfontColor;
 }
 
 * {
-	outline: 0;
+    outline: 0;
 }
 
 a,
 .btn,
 button,
 input[type="submit"] {
-	@include transition();
+    transition: all .2s linear;
 }
 
 .fa {
-	@include transition();
+    transition: all .2s linear;
 }
 
 a {
-	color: $anchorColor;
+    color: $anchorColor;
 
-	&:hover,
-	&:focus {
-		color: $anchorColorHover;
-	}
+    &:hover,
+    &:focus {
+        color: $anchorColorHover;
+    }
 }
 
 h1,
@@ -42,118 +42,72 @@ h5,
 .h5,
 h6,
 .h6 {
-	margin-top: 0;
-	padding: 0 0 15px;
-	font-weight: 600;
-	font-family: $fontFamilyHeading;
+    margin-top: 0;
+    padding: 0 0 15px;
+    font-weight: 600;
+    font-family: $fontFamilyHeading;
 }
 
 video {
-	width: 100%;
-}
-
-.btn,
-button {
-	// @include border-radius(50px);
-	background: $buttonDefaultBgColor;
-	padding: 7px 20px;
-	border: 0;
-	color: $buttonDefaultColor;
-	font-size: 14px;
-	border-color: $buttonDefaultBdrColor;
-
-	&:hover,
-	&:focus,
-	&:active {
-		background: $buttonDefaultHoverBgColor;
-		color: $buttonDefaultHoverColor;
-	}
-
-	&.dark {
-		background: $buttonDarkBgColor;
-		color: $buttonDarkColor;
-
-		&:hover {
-			background: $buttonDarkHoverBgColor;
-			color: $buttonDarkHoverColor;
-		}
-	}
-
-	&.btn-submit .fa {
-		margin: 0 10px 0 0;
-	}
-
-	&.btn-transparent {
-		background-color: transparent;
-		border: 2px solid $buttonTransparentBdrColor;
-
-		&:hover {
-			background: $buttonTransparentHoverBgColor;
-		}
-	}
-
-	&.btn-white {
-		background: $buttonWhiteBgColor;
-		border: 2px solid $buttonDarkBdrColor;
-		color: $buttonWhiteColor !important;
-
-		&:hover {
-			background: $buttonDarkHoverBgColor;
-			color: $buttonWhiteHoverColor !important;
-		}
-	}
+    width: 100%;
 }
 
 .page-title {
-	text-transform: uppercase;
-	font-size: 40px;
-	padding: 0 0 35px;
-	margin: 0;
+    text-transform: uppercase;
+    font-size: 40px;
+    padding: 0 0 35px;
+    margin: 0;
 }
 
-.section-title {
-	display: block;
-	flex-basis: 100%;
-	border-bottom: 1px solid #f1f2f3;
-	padding: 0 0 3px;
-	margin-bottom: 20px;
+.section-title,
+.sec-title {
+    display: block;
+    flex-basis: 100%;
+    border-bottom: 1px solid #f1f2f3;
+    padding: 0 0 3px;
+    margin-bottom: 20px;
 }
 
 .sec-subpage-banner .page-title {
-	padding: 0;
+    padding: 0;
 }
 
 .sec-title {
-	// text-transform: uppercase;
+    border: 0;
+    padding: 0px;
+    margin-bottom: 40px;
 }
 
 .section {
-	margin: 0 0 30px;
-	padding: 30px 0;
+    margin: 0 0 35px;
+    padding: 35px 0 0 0;
+}
+
+hr.nomargin {
+    margin: 0;
 }
 
 label {
-	font-weight: 500;
+    font-weight: 500;
 }
 
 .form-control {
-	font-size: .9rem;
+    font-size: .9rem;
 }
 
 input[type="text"],
 textarea {
-	background: transparent;
-	border: 1px solid #ccc;
-	width: 100%;
-	margin: 0 0 10px;
-	font-weight: normal;
-	padding: 5px;
-	resize: none;
+    background: transparent;
+    border: 1px solid #ccc;
+    width: 100%;
+    margin: 0 0 10px;
+    font-weight: normal;
+    padding: 5px;
+    resize: none;
 }
 
 input[type="submit"] {
-	padding: 7px 25px;
-	//@include border-radius(50px);
+    padding: 7px 25px;
 }
 
 input[type="submit"]:hover {}
@@ -161,243 +115,243 @@ input[type="submit"]:hover {}
 .overlay,
 .content-overlay,
 .page-overlay {
-	position: absolute;
-	background: #333;
-	width: 100%;
-	top: 0;
-	border: 0;
-	z-index: 0;
-	height: 100%;
-	@include Opacity(.5);
+    position: absolute;
+    background: #333;
+    width: 100%;
+    top: 0;
+    border: 0;
+    z-index: 0;
+    height: 100%;
+    opacity: .5;
 }
 
 .page-overlay {
-	position: fixed;
-	display: block;
-	z-index: 9;
+    position: fixed;
+    display: block;
+    z-index: 9;
 }
 
 .bdr-bottom {
-	border-bottom: 1px solid $borderColorDark;
+    border-bottom: 1px solid $borderColorDark;
 }
 
 p.txt-lg {
-	font-size: 17px;
-	margin: 0 0 25px;
-	line-height: 27px;
+    font-size: 17px;
+    margin: 0 0 25px;
+    line-height: 27px;
 }
 
 .breadcrumb {
-	background: transparent;
-	color: $breadcrumbColor;
-	font-size: 13px;
-	text-align: right;
-	justify-content: flex-end;
-	margin: 0px;
+    background: transparent;
+    color: $breadcrumbColor;
+    font-size: 13px;
+    text-align: right;
+    justify-content: flex-end;
+    margin: 0px;
 
-	& a {
-		color: $breadcrumbAnchorColor;
-	}
+    & a {
+        color: $breadcrumbAnchorColor;
+    }
 
-	& li+li:before {
-		color: $breadcrumbColor;
-		font-size: 10px;
-	}
+    & li+li:before {
+        color: $breadcrumbColor;
+        font-size: 10px;
+    }
 }
 
 .seperator {
-	padding: 0 5px;
+    padding: 0 5px;
 }
 
 .icon-list {
-	& li {
-		margin: 0 0 10px 25px;
-		line-height: 20px;
+    & li {
+        margin: 0 0 10px 25px;
+        line-height: 20px;
 
-		&:before {
-			content: "\f006";
-			font-family: FontAwesome;
-			float: left;
-			margin-left: -18px;
-			color: $faColor;
-		}
-	}
+        &:before {
+            content: "\f006";
+            font-family: FontAwesome;
+            float: left;
+            margin-left: -18px;
+            color: $faColor;
+        }
+    }
 
-	&.icon-chevron {
-		& li {
-			&:before {
-				content: "\f054";
-			}
-		}
-	}
+    &.icon-chevron {
+        & li {
+            &:before {
+                content: "\f054";
+            }
+        }
+    }
 
-	&.icon-check-circle {
-		& li {
-			&:before {
-				content: "\f058";
-			}
-		}
-	}
+    &.icon-check-circle {
+        & li {
+            &:before {
+                content: "\f058";
+            }
+        }
+    }
 }
 
 .social {
-	a {
-		.fa {
-			width: 30px;
-			height: 30px;
-			font-size: 17px;
-			line-height: 30px;
-			color: #FFF;
-			@include border-radius(50%);
+    a {
+        .fa {
+            width: 30px;
+            height: 30px;
+            font-size: 17px;
+            line-height: 30px;
+            color: #FFF;
+            border-radius: 50%;
 
-			&.facebook {
-				background: #3b5999;
-			}
+            &.facebook {
+                background: #3b5999;
+            }
 
-			&.twitter {
-				background: #55acee;
-			}
+            &.twitter {
+                background: #55acee;
+            }
 
-			&.google-plus {
-				background: #dd4b39;
-			}
+            &.google-plus {
+                background: #dd4b39;
+            }
 
-			&.linkedin {
-				background: #0077B5;
-			}
+            &.linkedin {
+                background: #0077B5;
+            }
 
-			&.pinterest {
-				background: #bd081c;
-			}
-		}
+            &.pinterest {
+                background: #bd081c;
+            }
+        }
 
-		&:hover {
-			.fa {
-				color: #FFF;
-				background: $faBackgroundrColor;
-				border-color: transparent;
-				@include box-shadow(1px, 4px, 7px, #868686);
-			}
-		}
-	}
+        &:hover {
+            .fa {
+                color: #FFF;
+                background: $faBackgroundrColor;
+                border-color: transparent;
+                box-shadow: 1px, 4px, 7px, #868686;
+            }
+        }
+    }
 }
 
 .move-top {
-	height: 35px;
-	width: 35px;
-	@include border-radius(50%);
-	position: fixed;
-	bottom: 50px;
-	right: 50px;
-	background: #F1F2F3;
-	border: 1px solid $borderColorDark;
-	text-align: center;
-	line-height: 40px;
-	display: none;
-	cursor: pointer;
-	z-index: 999;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    background: #F1F2F3;
+    border: 1px solid $borderColorDark;
+    text-align: center;
+    line-height: 40px;
+    display: none;
+    cursor: pointer;
+    z-index: 999;
 
-	.fa {
-		font-size: 25px;
-	}
+    .fa {
+        font-size: 25px;
+    }
 }
 
 .br-line,
 .br-sec-line {
-	&:after {
-		content: "";
-		width: 50px;
-		display: block;
-		border-bottom: 3px solid;
-		text-align: center;
-		margin: 0px auto;
-		padding: 15px 0 0 0;
-	}
+    &:after {
+        content: "";
+        width: 50px;
+        display: block;
+        border-bottom: 3px solid;
+        text-align: center;
+        margin: 0px auto;
+        padding: 15px 0 0 0;
+    }
 
-	&.br-line-left:after {
-		margin: 0;
-	}
+    &.br-line-left:after {
+        margin: 0;
+    }
 }
 
 .br-sec-line:after {
-	width: 50%;
-	border-color: #f1f2f3;
-	border-width: 2px;
+    width: 50%;
+    border-color: #f1f2f3;
+    border-width: 2px;
 }
 
 .sec-divider {
-	border-bottom: 2px solid #f3f4f5;
+    border-bottom: 2px solid #f3f4f5;
 }
 
 img {
-	&.align-left {
-		float: left;
-		margin: 0 20px 20px 0;
-	}
+    &.align-left {
+        float: left;
+        margin: 0 20px 20px 0;
+    }
 
-	&.align-right {
-		float: left;
-		margin: 0 0px 20px 20px;
-	}
+    &.align-right {
+        float: left;
+        margin: 0 0px 20px 20px;
+    }
 
-	&.full-size {
-		width: 100%;
-		margin: 0 0 15px;
-		height: auto;
-	}
+    &.full-size {
+        width: 100%;
+        margin: 0 0 15px;
+        height: auto;
+    }
 }
 
 .circle-icon {
-	width: 80px;
-	height: 80px;
-	margin: 0 auto 20px;
-	@include border-radius(100%);
-	line-height: 80px;
-	text-align: center;
-	vertical-align: middle;
-	display: inline-block;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 20px;
+    border-radius: 100%;
+    line-height: 80px;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
 
-	& .fa-circle-icon {
-		font-size: 30px;
-		line-height: inherit;
-	}
+    & .fa-circle-icon {
+        font-size: 30px;
+        line-height: inherit;
+    }
 }
 
 @media only screen and (max-width:999px) {
 
-	.btn,
-	.button,
-	button.sss,
-	button {
-		padding: 5px 15px;
-		font-size: 13px;
-	}
+    .btn,
+    .button,
+    button.sss,
+    button {
+        padding: 5px 15px;
+        font-size: 13px;
+    }
 
-	h2,
-	.h2 {
-		font-size: 25px;
-	}
+    h2,
+    .h2 {
+        font-size: 25px;
+    }
 
-	.breadcrumb {
-		display: none;
-	}
+    .breadcrumb {
+        display: none;
+    }
 
-	.page-title {
-		font-size: 25px;
-	}
+    .page-title {
+        font-size: 25px;
+    }
 
-	.circle-icon {
-		width: 70px;
-		height: 70px;
-		margin: 0 auto 10px;
-		line-height: 70px;
+    .circle-icon {
+        width: 70px;
+        height: 70px;
+        margin: 0 auto 10px;
+        line-height: 70px;
 
-		& .fa-circle-icon {
-			font-size: 25px;
-		}
-	}
+        & .fa-circle-icon {
+            font-size: 25px;
+        }
+    }
 
-	video {
-		display: none;
-	}
+    video {
+        display: none;
+    }
 }

@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-12 col-lg-6">
-				<h3 class="sec-title">What we do?</h3>
+				<h3>What we do?</h3>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique excepturi voluptates placeat ducimus delectus magnam
 					tempore dolore dolorem quisquam porro modi voluptatum eum saepe dolorum.</p>
 				<hr>

@@ -1,0 +1,14 @@
+.m-header-wrapper {
+    &.fixed-top {
+        &:before {
+            content: "";
+            width: 100%;
+            background: #333;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            position: absolute;
+            opacity: .3;
+        }
+    }
+}

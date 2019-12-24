@@ -1,3 +1,7 @@
+$primary-1: #3078BF;
+$primary-2: #00B1FF;
+
+
 $backgroundColor: #FFF;
 $backgroundColorLight: #f1f2f3;
 $bodyfontColor: #333;
@@ -5,8 +9,7 @@ $bodyfontColor: #333;
 //FONT FAMILY
 $fontFamily: Open Sans,
 sans-serif;
-$fontFamilyHeading: 'Josefin Sans',
-Open Sans,
+$fontFamilyHeading: 'Open Sans',
 sans-serif;
 
 /*Header Menu*/
@@ -28,6 +31,9 @@ $navBarBgMobileHighlightColor: #E9E9E9;
 
 $navBarBorderColor: #E5E5E5;
 
+$hamburgerColor: #fff;
+$hamburgerColorDark: #333;
+
 
 /* BORDER COLORS */
 $borderColorLight: #f1f2f3;
@@ -41,29 +47,7 @@ $faColor:#448aff;
 $faBorderColor: #333;
 $faBackgroundrColor: $faColor;
 
-/* BUTTON COLORS */
-$buttonDefaultColor:#FFF;
-$buttonDefaultBgColor:#448aff;
-$buttonDefaultHoverColor:#FFF;
-$buttonDefaultHoverBgColor:#3078BF;
-$buttonDefaultBdrColor:#3078BF;
 
-$buttonDarkColor:#FFF;
-$buttonDarkBgColor: #3078BF;
-$buttonDarkHoverColor:#FFF;
-$buttonDarkHoverBgColor:#448aff;
-$buttonDarkBdrColor:#3078BF;
-
-$buttonTransparentColor: #FFF;
-$buttonTransparentBdrColor: #3078BF;
-$buttonTransparentHoverColor: #FFF;
-$buttonTransparentHoverBgColor:#3078BF;
-
-$buttonWhiteColor:#448aff;
-$buttonWhiteBgColor: #FFF;
-$buttonWhiteHoverColor:#FFF;
-$buttonDarkHoverBgColor:#448aff;
-$buttonDarkBdrColor:#fff;
 
 /*BreadCrum Color*/
 $breadcrumbColor: #333;

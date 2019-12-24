@@ -5,8 +5,8 @@
 				<h2 class="sec-title br-line br-line-left">Request a Call</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et ex eu metus ultrices accumsan. Sed sed cursus
 					leo. Sed tincidunt augue nec diam bibendum, sed consequat purus congue. Sed vitae felis lectus. Proin eleifend nibh
-					ac ipsum scelerisque fringilla.
-					<br> Call us: (+249 99999 00000)</p>
+					ac ipsum scelerisque fringilla.</p>
+					<p> Call us: (+249 99999 00000)</p>
 			</div>
 			<div class="col-sm-6 col-md-6">
 				<form class="">

@@ -1,12 +1,14 @@
 .sec-gallery {
-	& .row {
-		margin: 0;
-	}
-	& [class^="col-"] {
-		padding: 0px !important;
-	}
-	& [class^="col-"] img {
-		width: 100%;
-		height: auto;
-	}
+    & .row {
+        margin: 0;
+    }
+
+    & [class^="col-"] {
+        padding: 0px !important;
+    }
+
+    & [class^="col-"] img {
+        width: 100%;
+        height: auto;
+    }
 }
