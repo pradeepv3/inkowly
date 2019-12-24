@@ -1,89 +1,89 @@
 .sec-subpage-banner {
-	background-color: #CCC;
-	padding: 50px 0;
-	background-image: url(../images/pexels-photo.jpeg);
-	position: relative;
+    background-color: #CCC;
+    padding: 50px 0;
+    background-image: url(../images/pexels-photo.jpeg);
+    position: relative;
 
-	&:before {
-		content: "";
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		top: 0;
-		background: #333;
-		@include Opacity(.7);
-	}
+    &:before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        background: #333;
+        opacity: .7;
+    }
 
-	& .row {
-		margin: 0;
-	}
+    & .row {
+        margin: 0;
+    }
 
-	&.map {
-		padding: 0;
+    &.map {
+        padding: 0;
 
-		& .g-map {
-			height: 100%;
-		}
-	}
+        & .g-map {
+            height: 100%;
+        }
+    }
 
-	& .page-title {
-		color: #fff;
-		font-weight: 300;
-	}
+    & .page-title {
+        color: #fff;
+        font-weight: 300;
+    }
 
-	& .breadcrumb {
-		color: #FFF;
+    & .breadcrumb {
+        color: #FFF;
 
-		& a,
-		& .active,
-		&>li+li:before {
-			color: #fff;
-		}
-	}
+        & a,
+        & .active,
+        &>li+li:before {
+            color: #fff;
+        }
+    }
 
-	&.bg-linear-gradient {
-		@include linear-gradient(#3078bf, #193a6b);
-	}
+    &.bg-linear-gradient {
+        background: linear-gradient(to bottom, #3078bf 0%, #193a6b 100%);
+    }
 
-	&.page-banner {
-		background-image: url(../images/about.jpg);
-		height: 350px;
-		position: relative;
-		color: #fff;
+    &.page-banner {
+        background-image: url(../images/about.jpg);
+        height: 350px;
+        position: relative;
+        color: #fff;
 
-		&:before {
-			display: none;
-		}
+        &:before {
+            display: none;
+        }
 
-		& div[class*="col-"] {
-			display: block !important; //text-align: center;
-			width: 100%;
-		}
+        & div[class*="col-"] {
+            display: block !important; //text-align: center;
+            width: 100%;
+        }
 
-		& .breadcrumb {
-			text-align: center;
+        & .breadcrumb {
+            text-align: center;
 
-			& a,
-			& .active,
-			&>li+li:before {
-				color: #fff;
-			}
-		}
+            & a,
+            & .active,
+            &>li+li:before {
+                color: #fff;
+            }
+        }
 
-		& .container {
-			top: 0;
-			bottom: 0;
-			left: 0;
-			right: 0;
-			width: 80%;
-			height: 20%;
-			margin: auto;
-			position: absolute;
-		}
-	}
+        & .container {
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            width: 80%;
+            height: 20%;
+            margin: auto;
+            position: absolute;
+        }
+    }
 }
 
 .sec-subpage-content .container.sec-testimonial,
 .sec-subpage-content .container.sec-tab-content {
-	width: auto;
+    width: auto;
 }

@@ -1,0 +1,64 @@
+/* BUTTON COLORS */
+$buttonPrimaryColor:#FFF;
+$buttonPrimaryHoverColor:#FFF;
+$buttonPrimaryBgColor: $primary-1;
+$buttonPrimaryHoverBgColor: $primary-2;
+
+$buttonSecondaryColor: #3078BF;
+$buttonSecondaryBgColor:#fff;
+
+$buttonSecondaryHoverColor: #fff;
+$buttonSecondaryHoverBgColor:#3078BF;
+
+.btn,
+button {
+    background: $buttonPrimaryBgColor;
+    padding: 10px 25px;
+    color: $buttonPrimaryColor;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: .5px;
+    line-height: 1.8;
+    border: 0;
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.15);
+
+    &:hover {
+        background: $buttonPrimaryHoverBgColor;
+        color: $buttonPrimaryHoverColor;
+    }
+
+    &:focus,
+    &:active {
+        background: $buttonPrimaryBgColor;
+        color: $buttonPrimaryHoverColor;
+        box-shadow: 0 0 0;
+    }
+
+    &.btn-primary {
+        border: 0 !important;
+        box-shadow: 0 0 0 !important;
+    }
+
+    &.btn-secondary {
+        background: $buttonSecondaryBgColor;
+        color: $buttonSecondaryColor;
+
+        &:hover {
+            background: $buttonSecondaryHoverBgColor;
+            color: $buttonSecondaryHoverColor;
+        }
+
+        &:focus,
+        &:active {
+            border: 0;
+            background: $buttonSecondaryBgColor !important;
+            color: $buttonSecondaryColor !important;
+            box-shadow: inset 0px 0px 0px 2px rgba(0, 0, 0, .15) !important;
+        }
+    }
+
+    &.btn-submit .fa {
+        margin: 0 10px 0 0;
+    }
+
+}

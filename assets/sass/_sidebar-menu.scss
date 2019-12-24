@@ -1,52 +1,54 @@
 .sidebar {
-	& .card {
-		&.sidebar_menu {
-			border-radius: 0px;
-			border: 0;
-			margin-top: 30px;
+    & .card {
+        &.sidebar_menu {
+            border-radius: 0px;
+            border: 0;
+            margin-top: 30px;
 
-			& .sidebar_menu-title {
-				background: #448aff;
-				border-radius: 0;
+            & .sidebar_menu-title {
+                background: #448aff;
+                border-radius: 0;
 
-				& a {
-					color: #FFF;
-					font-size: 15px;
-					text-transform: uppercase;
-				}
-			}
+                & a {
+                    color: #FFF;
+                    font-size: 15px;
+                    text-transform: uppercase;
+                    text-decoration: none;
+                    font-weight: bold;
+                }
+            }
 
-			& .sidebar_menu-list {
-				& a {
-					& .fa {
-						padding-right: 10px;
-					}
+            & .sidebar_menu-list {
+                & a {
+                    & .fa {
+                        padding-right: 10px;
+                    }
 
-					&:hover {
-						& .fa {
-							padding-right: 15px;
-						}
-					}
-				}
-			}
+                    &:hover {
+                        & .fa {
+                            padding-right: 15px;
+                        }
+                    }
+                }
+            }
 
-			@media only screen and (min-width:569px) {
+            @media only screen and (min-width:569px) {
 
-				& .sidebar_menu-list,
-				& .sidebar_menu-list.collapse,
-				& .sidebar_menu-list.collapsing {
-					display: block !important;
-					height: auto !important;
-				}
+                & .sidebar_menu-list,
+                & .sidebar_menu-list.collapse,
+                & .sidebar_menu-list.collapsing {
+                    display: block !important;
+                    height: auto !important;
+                }
 
-				& .dropdown-toggle::after {
-					display: none;
-				}
-			}
+                & .dropdown-toggle::after {
+                    display: none;
+                }
+            }
 
-			@media only screen and (max-width:767px) {
-				border: 1px solid #f1f2f3;
-			}
-		}
-	}
+            @media only screen and (max-width:767px) {
+                border: 1px solid #f1f2f3;
+            }
+        }
+    }
 }

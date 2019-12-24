@@ -13,7 +13,7 @@
 <body class="ie-warning">
 	<div class="ie-warning_msg">
 		<div class="ie-warning_content">
-			<h2>Update your browser</h2>
+			<h2 class="ie-warning_content-title">Update your browser</h2>
 			<p>Your browser is OLD! Upgrade to a different browser or Install Google Chrome to experience this site.</p>
 		</div>
 	</div>

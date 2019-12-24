@@ -1,26 +1,26 @@
 .sec-requestcall {
-	color: #fff;
-	padding: 75px 0;
-	margin: 0px;
-	@include linear-gradient(#193A6B, #3078bf);
-	position: relative;
+    color: #fff;
+    padding: 75px 0;
+    margin: 0px;
+    background: linear-gradient(to bottom, #193A6B 0%, #3078bf 100%);
+    position: relative;
 
-	& .overlay {
-		opacity: .8;
-	}
+    & .overlay {
+        opacity: .8;
+    }
 
-	& input[type='text'],
-	& textarea {
-		border-width: 0px 0 1px 0;
-		border-bottom: 1px solid #ccc;
-		color: #FFF;
+    & input[type='text'],
+    & textarea {
+        border-width: 0px 0 1px 0;
+        border-bottom: 1px solid #ccc;
+        color: #FFF;
 
-		&::placeholder {
-			color: #ccc;
-		}
-	}
+        &::placeholder {
+            color: #ccc;
+        }
+    }
 
-	@media only screen and (max-width:999px) {
-		padding: 45px 0;
-	}
+    @media only screen and (max-width:999px) {
+        padding: 45px 0;
+    }
 }
