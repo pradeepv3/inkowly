@@ -66,6 +66,7 @@ function cleancss() {
 
 function browserRelaod() {
     browserSync.init({
+        port: 3001,
         proxy: "http://localhost/inkowly/"
     });
     gulp.watch("./**/*.php").on('change', browserSync.reload);

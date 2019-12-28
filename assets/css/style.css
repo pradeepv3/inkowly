@@ -1546,8 +1546,14 @@ button {
   font-size: 175px;
   color: #CCC; }
 
-.sec-404 .form-control {
-  height: calc(35px); }
+.sec-404 .input-group .form-control {
+  padding: 5px 15px; }
+  .sec-404 .input-group .form-control:focus {
+    outline: none; }
+
+.sec-404 .input-group .btn {
+  padding-top: 5px;
+  padding-bottom: 5px; }
 
 @media (max-width: 736px) and (orientation: landscape) {
   .col-xws-6 {

@@ -4,7 +4,19 @@
         color: #CCC;
     }
 
-    & .form-control {
-        height: calc(35px)
+    .input-group {
+        & .form-control {
+            //height: calc(35px);
+            padding: 5px 15px;
+
+            &:focus {
+                outline: none;
+            }
+        }
+
+        & .btn {
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
     }
 }

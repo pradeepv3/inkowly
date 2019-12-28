@@ -29,7 +29,8 @@
                         InkOwly Html Template
                     </h1>
                     <h3 class="banner-sub-title">Clean and Mordern 20+ HTML pages.</h3>
-                    <a href="#" class="btn btn-primary">Buy Now</a>
+                    <a href="https://github.com/pradeepv3/Onepage-Avanto.git" class="btn btn-secondary mr-3"> <i class="fa fa-github"></i> Fork Github</a>
+                    <a href="https://github.com/pradeepv3/Onepage-Avanto/archive/master.zip" class="btn btn-secondary"> <i class="fa fa-download"></i> Download Now</a>
                     </div>
                 </div>
             </section>
