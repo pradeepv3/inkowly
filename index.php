@@ -249,7 +249,7 @@
             <div class="container">
                 <div class="">
                     <div class="text-center">
-                        &copy; 2018 Copyright.
+                        Copyright &copy; <?php echo date('Y') ?> <small class="mr-2 ml-2">|</small> Developed By <a target="_blank" href="http://pradeepui.in">PradeepUI</a>
                     </div>
                 </div>
             </div>

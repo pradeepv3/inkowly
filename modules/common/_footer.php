@@ -78,9 +78,7 @@
                     <p>
                         <span class="fa fa-phone"></span>+91 0000 0000</p>
                     <p>
-                        <span class="fa fa-envelope">
-                            <a href="mailto:inlowly@gmail.com">inlowly@gmail.com</a>
-                        </span></p>
+                        <span class="fa fa-envelope"></span><a href="mailto:inlowly@gmail.com">inlowly@gmail.com</a></p>
                     <p>
                         <span class="fa fa-fax"></span>
                         <a href="mailto:contact@inlowly.com">+91 0000 0000</a>
@@ -92,8 +90,7 @@
 
     <div class="sec-copyright">
         <div class="container text-center">
-            Copyright &copy;
-            <?php echo date('Y') ?> <small class="mr-2 ml-2">|</small> All right Reserved
+            Copyright &copy; <?php echo date('Y') ?>
         </div>
     </div>
 </footer>
