@@ -29,8 +29,8 @@
                         InkOwly Html Template
                     </h1>
                     <h3 class="banner-sub-title">Clean and Mordern 20+ HTML pages.</h3>
-                    <a href="https://github.com/pradeepv3/inkowly.git" class="btn btn-secondary mr-3"> <i class="fa fa-github"></i> Fork Github</a>
-                    <a href="https://github.com/pradeepv3/inkowly/archive/master.zip" class="btn btn-secondary"> <i class="fa fa-download"></i> Download Now</a>
+                    <a target="_blank" href="https://github.com/pradeepv3/inkowly.git" class="btn btn-secondary mr-3"> <i class="fa fa-github"></i> Fork Github</a>
+                    <a target="_blank" href="https://github.com/pradeepv3/inkowly/archive/master.zip" class="btn btn-secondary"> <i class="fa fa-download"></i> Download zip</a>
                     </div>
                 </div>
             </section>
