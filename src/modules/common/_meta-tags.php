@@ -12,7 +12,7 @@
 <title>Free Html Template - Inkowly</title>
 <meta name="description" content="Free Html Template - Inkowly" />
 <meta name="keywords" content="Free html template" />
-<meta name="author" content="Avanto" />
+<meta name="author" content="Inkowly" />
 
 <meta property="og:title" content="Free Html Template - Inkowly">
 <meta property="og:description" content="Free Html Template - Inkowly">

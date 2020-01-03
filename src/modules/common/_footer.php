@@ -95,10 +95,10 @@
     </div>
 </footer>
 </div>
-<script src='js/bootstrap.min.js'></script>
-<script src="js/wow.min.js"></script>
-<script src="js/jquery.mixitup.min.js"></script>
-<script src="js/jquery.fancybox.min.js"></script>
+<script src='js/plugins/bootstrap.min.js'></script>
+<script src="js/plugins/wow.min.js"></script>
+<script src="js/plugins/jquery.mixitup.min.js"></script>
+<script src="js/plugins/jquery.fancybox.min.js"></script>
 <script src='js/script.min.js'></script>
 </body>
 

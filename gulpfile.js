@@ -14,11 +14,11 @@ const autoprefixer = require('gulp-autoprefixer');
 const SassSRC = './assets/sass/*.scss';
 const SassDest = './assets/css/';
 
-const cssSrc = './assets/css/*.css';
-const cssSrcDest = './css/';
+const cssSrc = './assets/css/**/*.css';
+const cssSrcDest = './src/css/';
 
-const jsSRC = './assets/js/*.js';
-const jsDest = './js/'
+const jsSRC = './assets/js/**/*.js';
+const jsDest = './src/js/'
 
 // function changed() {
 //   return gulp.src(SassSRC)
@@ -43,7 +43,7 @@ function style() {
         .pipe(sass().on('error', sass.logError))
         .pipe(gulp.dest(SassDest))
         .pipe(autoprefixer())
-        .pipe(sourcemaps.write('./maps'))
+        .pipe(sourcemaps.write('../../src/css/maps'))
         .pipe(gulp.dest(cssSrcDest))
         .pipe(browserSync.stream());
 }
@@ -51,6 +51,8 @@ function style() {
 function cleancss() {
     return gulp.src(cssSrc)
         .pipe(cleanCSS({
+            debug: true,
+            rebase: false,
             level: {
                 1: {
                     specialComments: 0
@@ -67,7 +69,7 @@ function cleancss() {
 function browserRelaod() {
     browserSync.init({
         port: 3001,
-        proxy: "http://localhost/inkowly/"
+        proxy: "http://localhost/inkowly/src/"
     });
     gulp.watch("./**/*.php").on('change', browserSync.reload);
 }

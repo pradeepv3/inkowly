@@ -69,12 +69,9 @@ var IOY = (typeof IOY !== 'undefined' && typeof IOY === "object") ? IOY : {};
 
     // Progress Bar
     IOY.progressBar = function () {
-        console.log('visisblef');
         $(window).scroll(function () {
-            console.log('visisble');
             if ($('#progress_bar').IsInViewport()) {
 
-                console.log("ddddd" + $('#progress_bar').IsInViewport());
                 $('.progress-bar').css("width", function () {
                     return $(this).attr('aria-valuenow') + "%";
                 });
@@ -155,7 +152,6 @@ var IOY = (typeof IOY !== 'undefined' && typeof IOY === "object") ? IOY : {};
 
         // FAQ Question scroll
         $('#faq_questions a').click(function (e) {
-            console.log("sdfsfdsdfsf");
             e.preventDefault();
             var target = $($(this).attr('href'));
             if (target.length) {
