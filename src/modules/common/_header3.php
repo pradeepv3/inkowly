@@ -1,5 +1,5 @@
 <!DOCTYPE Html>
-<html lang="en">
+<html lang="zxx">
 
 <head>
     <?php include "modules/common/_meta-tags.php"?>
