@@ -23,8 +23,7 @@
         <div class="container">
             <div class="col-12 col-lg-8 offset-lg-2">
                 <h3 class="sec-title br-line">InkOwly</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique excepturi voluptates placeat ducimus delectus magnam
-                    tempore dolore dolorem quisquam porro modi voluptatum eum saepe dolorum.</p>
+                <p>PradeepUI templates are created with the latest version of Bootstap. 100% responsive design and is beautifully displayed on all devices. All the files are clearly organized and it’s easy to use and edit them for your needs.</p>
             </div>
         </div>
     </div>

@@ -24,7 +24,7 @@
                 <div class="container">
                     <div class="text-center">
                     <h1 class="banner-title">
-                        InkOwly Html Template
+                        InkOwly Free Html Template
                     </h1>
                     <h3 class="banner-sub-title">Clean and Mordern 20+ HTML pages.</h3>
                     <a target="_blank" href="https://github.com/pradeepv3/inkowly.git" class="btn btn-secondary mr-3"> <i class="fa fa-github"></i> Fork Github</a>

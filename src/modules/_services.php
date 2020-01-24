@@ -8,8 +8,8 @@
                     <div class="circle-icon sec-services__icon">
                         <span class="fa fa-html5 fa-circle-icon"></span>
                     </div>
-                    <h3 class="sec-services__title">Html</h3>
-                    <p class="sec-services__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspe disse eMaecenas cursust sdxtus.</p>
+                    <h3 class="sec-services__title">Html5</h3>
+                    <p class="sec-services__text">HTML5 is a software solution stack that defines the properties and behaviors of web page content by implementing...</p>
                     <a href="" class="btn">Read more</a>
                 </div>
             </div>
@@ -20,7 +20,7 @@
                         <span class="fa fa-desktop fa-circle-icon"></span>
                     </div>
                     <h3 class="sec-services__title">Web Design</h3>
-                    <p class="sec-services__text">Donec iaculis nunc sollicitudin laoreet feugiat. Maecenas cursus Maecenas ut vulputate neques.</p>
+                    <p class="sec-services__text">Web design encompasses many different skills and disciplines in the production and maintenance of websites.</p>
                     <a href="" class="btn">Read more</a>
                 </div>
             </div>
@@ -31,7 +31,7 @@
                         <span class="fa fa-cogs fa-circle-icon"></span>
                     </div>
                     <h3 class="sec-services__title">Web Development</h3>
-                    <p class="sec-services__text">Fusce aliquet quam eget neque ultrices elementum. Nulla posuere Maecenas cursus felis id arcu.</p>
+                    <p class="sec-services__text">Web development usually refers to the main non-design aspects of building web sites writing markup and coding.</p>
                     <a href="" class="btn">Read more</a>
                 </div>
             </div>
@@ -42,7 +42,7 @@
                         <span class="fa fa-mobile fa-circle-icon"></span>
                     </div>
                     <h3 class="sec-services__title">APP</h3>
-                    <p class="sec-services__text">Pulvinar vitae neque et porttitor. Integer Maecenas cursus non dapibus diam, ac cursus tellus.</p>
+                    <p class="sec-services__text">A mobile application, also referred to as a mobile app or simply an app, is a computer program.</p>
                     <a href="" class="btn">Read more</a>
                 </div>
             </div>
